@@ -1,0 +1,278 @@
+\doxysection{vector2.\+h File Reference}
+\hypertarget{vector2_8h}{}\label{vector2_8h}\index{vector2.h@{vector2.h}}
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+Include dependency graph for vector2.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=137pt]{vector2_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structvec}{vec}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{vector2_8h_ab91a80207c5395a12cd4e493655c9d04}{NULL\+\_\+\+VEC}}~(\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}})\{0.\+0, 0.\+0\}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{structstruct}{struct}} \mbox{\hyperlink{structvec}{vec}} \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_aa7a39492994c0ff3693cc65bc4b1b359}{vec\+\_\+neg}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\begin{DoxyCompactList}\small\item\em Negate a 2d vector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_ad2a596b81b174f603d371e6650c2b593}{vec\+\_\+add}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v2)
+\begin{DoxyCompactList}\small\item\em Add two vectors. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_ae48c327fa5564233e66b91c97dec3515}{vec\+\_\+add\+\_\+scalar}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, float scalar)
+\begin{DoxyCompactList}\small\item\em Add a vector to a scalar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_a29569c4c74f1c104a0d71c2c49d39102}{vec\+\_\+mult}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v2)
+\begin{DoxyCompactList}\small\item\em Multiply two vectors. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_a6a03805da71a22e33dcaf580ff426674}{vec\+\_\+mult\+\_\+scalar}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, float scalar)
+\begin{DoxyCompactList}\small\item\em Multiply a vector by a scalar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_a774dce88b11449d42960428d44ae745f}{vec\+\_\+sign}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\begin{DoxyCompactList}\small\item\em Get sign vector of a vector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_a955af94cdaf2322e62b19e17fd5494a0}{vec\+\_\+normal}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{vector2_8h_a3d3b3444a5bb3111ca6963a9be4e1e78}{vec\+\_\+unit}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\begin{DoxyCompactList}\small\item\em Get unit vector of a vector. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{vector2_8h_aa26e64f4c7f02cfa16873c99d62e3fbe}{vec\+\_\+equals}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v2)
+\begin{DoxyCompactList}\small\item\em Check if two vector are equal. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{vector2_8h_a116ec78d31111ac66b5640e77cbcd417}{vec\+\_\+dot}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v2)
+\begin{DoxyCompactList}\small\item\em Get dot product of two vectors. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{vector2_8h_a63cd4be62382844c7c506ca159e416ae}{vec\+\_\+len}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\begin{DoxyCompactList}\small\item\em Get length of a vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{vector2_8h_ab91a80207c5395a12cd4e493655c9d04}\index{vector2.h@{vector2.h}!NULL\_VEC@{NULL\_VEC}}
+\index{NULL\_VEC@{NULL\_VEC}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{NULL\_VEC}{NULL\_VEC}}
+{\footnotesize\ttfamily \label{vector2_8h_ab91a80207c5395a12cd4e493655c9d04} 
+\#define NULL\+\_\+\+VEC~(\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}})\{0.\+0, 0.\+0\}}
+
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}\index{vector2.h@{vector2.h}!vec\_2d@{vec\_2d}}
+\index{vec\_2d@{vec\_2d}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_2d}{vec\_2d}}
+{\footnotesize\ttfamily \label{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf} 
+typedef \mbox{\hyperlink{structstruct}{struct}} \mbox{\hyperlink{structvec}{vec}} \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{vector2_8h_ad2a596b81b174f603d371e6650c2b593}\index{vector2.h@{vector2.h}!vec\_add@{vec\_add}}
+\index{vec\_add@{vec\_add}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_add()}{vec\_add()}}
+{\footnotesize\ttfamily \label{vector2_8h_ad2a596b81b174f603d371e6650c2b593} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v2}{}\end{DoxyParamCaption})}
+
+
+
+Add two vectors. 
+
+\begin{DoxyReturn}{Returns}
+resulting vector after addition 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_ad2a596b81b174f603d371e6650c2b593_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_ae48c327fa5564233e66b91c97dec3515}\index{vector2.h@{vector2.h}!vec\_add\_scalar@{vec\_add\_scalar}}
+\index{vec\_add\_scalar@{vec\_add\_scalar}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_add\_scalar()}{vec\_add\_scalar()}}
+{\footnotesize\ttfamily \label{vector2_8h_ae48c327fa5564233e66b91c97dec3515} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+add\+\_\+scalar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{float}]{scalar}{}\end{DoxyParamCaption})}
+
+
+
+Add a vector to a scalar. 
+
+\begin{DoxyReturn}{Returns}
+resulting vector after addition 
+\end{DoxyReturn}
+\Hypertarget{vector2_8h_a116ec78d31111ac66b5640e77cbcd417}\index{vector2.h@{vector2.h}!vec\_dot@{vec\_dot}}
+\index{vec\_dot@{vec\_dot}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_dot()}{vec\_dot()}}
+{\footnotesize\ttfamily \label{vector2_8h_a116ec78d31111ac66b5640e77cbcd417} 
+float vec\+\_\+dot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v2}{}\end{DoxyParamCaption})}
+
+
+
+Get dot product of two vectors. 
+
+\begin{DoxyReturn}{Returns}
+result of dot product 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_a116ec78d31111ac66b5640e77cbcd417_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_aa26e64f4c7f02cfa16873c99d62e3fbe}\index{vector2.h@{vector2.h}!vec\_equals@{vec\_equals}}
+\index{vec\_equals@{vec\_equals}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_equals()}{vec\_equals()}}
+{\footnotesize\ttfamily \label{vector2_8h_aa26e64f4c7f02cfa16873c99d62e3fbe} 
+bool vec\+\_\+equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v2}{}\end{DoxyParamCaption})}
+
+
+
+Check if two vector are equal. 
+
+\begin{DoxyReturn}{Returns}
+whether vector coordinates match 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_aa26e64f4c7f02cfa16873c99d62e3fbe_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_a63cd4be62382844c7c506ca159e416ae}\index{vector2.h@{vector2.h}!vec\_len@{vec\_len}}
+\index{vec\_len@{vec\_len}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_len()}{vec\_len()}}
+{\footnotesize\ttfamily \label{vector2_8h_a63cd4be62382844c7c506ca159e416ae} 
+float vec\+\_\+len (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+
+
+Get length of a vector. 
+
+\begin{DoxyReturn}{Returns}
+length of the vector 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_a63cd4be62382844c7c506ca159e416ae_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_a29569c4c74f1c104a0d71c2c49d39102}\index{vector2.h@{vector2.h}!vec\_mult@{vec\_mult}}
+\index{vec\_mult@{vec\_mult}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_mult()}{vec\_mult()}}
+{\footnotesize\ttfamily \label{vector2_8h_a29569c4c74f1c104a0d71c2c49d39102} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+mult (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v2}{}\end{DoxyParamCaption})}
+
+
+
+Multiply two vectors. 
+
+\begin{DoxyReturn}{Returns}
+resulting vector after multiplication 
+\end{DoxyReturn}
+\Hypertarget{vector2_8h_a6a03805da71a22e33dcaf580ff426674}\index{vector2.h@{vector2.h}!vec\_mult\_scalar@{vec\_mult\_scalar}}
+\index{vec\_mult\_scalar@{vec\_mult\_scalar}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_mult\_scalar()}{vec\_mult\_scalar()}}
+{\footnotesize\ttfamily \label{vector2_8h_a6a03805da71a22e33dcaf580ff426674} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+mult\+\_\+scalar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v1}{, }\item[{float}]{scalar}{}\end{DoxyParamCaption})}
+
+
+
+Multiply a vector by a scalar. 
+
+\begin{DoxyReturn}{Returns}
+resulting vector after multiplication 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_a6a03805da71a22e33dcaf580ff426674_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_aa7a39492994c0ff3693cc65bc4b1b359}\index{vector2.h@{vector2.h}!vec\_neg@{vec\_neg}}
+\index{vec\_neg@{vec\_neg}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_neg()}{vec\_neg()}}
+{\footnotesize\ttfamily \label{vector2_8h_aa7a39492994c0ff3693cc65bc4b1b359} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+neg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+
+
+Negate a 2d vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & to negate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+negated vector 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_aa7a39492994c0ff3693cc65bc4b1b359_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{vector2_8h_a955af94cdaf2322e62b19e17fd5494a0}\index{vector2.h@{vector2.h}!vec\_normal@{vec\_normal}}
+\index{vec\_normal@{vec\_normal}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_normal()}{vec\_normal()}}
+{\footnotesize\ttfamily \label{vector2_8h_a955af94cdaf2322e62b19e17fd5494a0} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+normal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+Get a vector normal to another vector \begin{DoxyReturn}{Returns}
+resulting vector after X-\/axis flip 
+\end{DoxyReturn}
+\Hypertarget{vector2_8h_a774dce88b11449d42960428d44ae745f}\index{vector2.h@{vector2.h}!vec\_sign@{vec\_sign}}
+\index{vec\_sign@{vec\_sign}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_sign()}{vec\_sign()}}
+{\footnotesize\ttfamily \label{vector2_8h_a774dce88b11449d42960428d44ae745f} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+sign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+
+
+Get sign vector of a vector. 
+
+\begin{DoxyReturn}{Returns}
+resulting vector after operation 
+\end{DoxyReturn}
+\Hypertarget{vector2_8h_a3d3b3444a5bb3111ca6963a9be4e1e78}\index{vector2.h@{vector2.h}!vec\_unit@{vec\_unit}}
+\index{vec\_unit@{vec\_unit}!vector2.h@{vector2.h}}
+\doxysubsubsection{\texorpdfstring{vec\_unit()}{vec\_unit()}}
+{\footnotesize\ttfamily \label{vector2_8h_a3d3b3444a5bb3111ca6963a9be4e1e78} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} vec\+\_\+unit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+
+
+Get unit vector of a vector. 
+
+\begin{DoxyReturn}{Returns}
+resulting unit vector 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{vector2_8h_a3d3b3444a5bb3111ca6963a9be4e1e78_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vector2_8h_a3d3b3444a5bb3111ca6963a9be4e1e78_icgraph}
+\end{center}
+\end{figure}

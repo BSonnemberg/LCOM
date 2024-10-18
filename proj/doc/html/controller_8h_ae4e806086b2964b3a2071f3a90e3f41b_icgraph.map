@@ -1,0 +1,5 @@
+<map id="init_controller" name="init_controller">
+<area shape="rect" id="Node000001" title="Initialize the game controller by starting to listen to I/O interrupts." alt="" coords="162,5,260,31"/>
+<area shape="rect" id="Node000002" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,5,114,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>

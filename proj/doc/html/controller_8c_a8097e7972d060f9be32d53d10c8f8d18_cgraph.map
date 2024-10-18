@@ -1,0 +1,82 @@
+<map id="on_timer_tick" name="on_timer_tick">
+<area shape="rect" id="Node000001" title="Handle a timer tick event." alt="" coords="5,555,105,580"/>
+<area shape="rect" id="Node000002" href="$pool_8c.html#ab146259d751a671adbde02958697da71" title="Handle an event amidst a pool game." alt="" coords="350,57,448,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,554,62,501,78,420,106,329,126,283,150,241,190,188,228,153,272,124,330,92,339,87,341,92,332,97,275,129,231,157,194,192,155,244,131,286,111,330,83,422,67,502,60,555"/>
+<area shape="rect" id="Node000004" href="$view_8c.html#aa3b4a2a627b4e33b566bf38dc0419ffc" title="Render the about menu view." alt="" coords="153,655,283,680"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="79,579,184,644,181,648,77,583"/>
+<area shape="rect" id="Node000012" href="$view_8c.html#a931260dc0e1c4f4a4a356d156a3787ac" title="Render the game view." alt="" coords="153,555,283,580"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="105,565,137,565,137,570,105,570"/>
+<area shape="rect" id="Node000019" href="$view_8h.html#ac53633ad15b64ad8aa3e31be142600cb" title="Render the menu view." alt="" coords="153,704,283,730"/>
+<area shape="poly" id="edge24_Node000001_Node000019" title=" " alt="" coords="65,579,99,633,125,664,154,691,160,694,157,699,151,695,121,667,95,636,61,582"/>
+<area shape="rect" id="Node000020" href="$pool_8c.html#a3a29f4d6a35973014fff66761fd2a5e7" title="Update the physics of the game." alt="" coords="162,255,274,280"/>
+<area shape="poly" id="edge25_Node000001_Node000020" title=" " alt="" coords="61,553,200,293,204,296,66,555"/>
+<area shape="rect" id="Node000003" href="$pool_8c.html#a1dfe8d08afdb69317754b37bf4c90cbb" title=" " alt="" coords="522,5,665,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,54,527,33,528,38,450,60"/>
+<area shape="rect" id="Node000005" href="$vg_8c.html#a4d53728322f948683b768482bf4906e8" title=" " alt="" coords="334,704,464,730"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,678,335,697,334,702,267,684"/>
+<area shape="rect" id="Node000008" href="$vg_8c.html#a0220209f7e0687c64c76d7477c1b661e" title="Draw a sprite to the screen." alt="" coords="345,655,454,680"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="283,665,329,665,329,670,283,670"/>
+<area shape="rect" id="Node000009" href="$vg_8c.html#a955ec43388f6cf17586319b637e0293b" title="Flip the video buffer, given a double buffer architecture." alt="" coords="350,605,449,631"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="267,651,334,633,335,638,269,657"/>
+<area shape="rect" id="Node000010" href="$vg_8c.html#a30605f9ea0eba14831f032301efb89b6" title="Get screen horizontal resolution." alt="" coords="353,753,445,779"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="264,679,285,689,300,702,309,715,318,728,333,740,340,744,337,749,329,744,314,731,305,718,296,706,281,694,262,683"/>
+<area shape="rect" id="Node000011" href="$vg_8c.html#a3c18fdcf2a7591bf211ee3f00f41a998" title="Get screen vertical resolution." alt="" coords="353,803,445,828"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="268,678,285,690,303,715,309,741,316,766,333,790,341,796,337,800,329,793,311,768,304,742,298,718,281,693,265,683"/>
+<area shape="rect" id="Node000006" href="$vg_8c.html#adb08b276272848bc7f3bccc0f5e770c8" title=" " alt="" coords="541,704,646,730"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="465,714,526,714,526,720,465,720"/>
+<area shape="rect" id="Node000007" href="$vg_8c.html#a6ce9849b80332b95ac5c02c62574d646" title="Set the color of a screen pixel." alt="" coords="720,653,814,679"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="639,701,705,681,707,686,641,706"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="454,665,704,664,704,669,454,670"/>
+<area shape="poly" id="edge20_Node000012_Node000008" title=" " alt="" coords="237,579,279,609,332,641,343,646,340,651,330,646,276,614,234,583"/>
+<area shape="poly" id="edge23_Node000012_Node000009" title=" " alt="" coords="267,578,337,598,336,603,266,584"/>
+<area shape="rect" id="Node000013" href="$physics_8c.html#a068db7d6d107017e7eabff6411ee0080" title="Get the angle of the cue stick." alt="" coords="347,455,452,480"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="234,552,276,521,330,489,340,484,343,489,332,494,279,526,237,556"/>
+<area shape="rect" id="Node000016" href="$pool_8c.html#a37f74dd6f4e3176bd587beb7445600f3" title="Get the padding of the cue stick from the cue ball based on the mouse position." alt="" coords="340,504,459,530"/>
+<area shape="poly" id="edge16_Node000012_Node000016" title=" " alt="" coords="266,551,336,532,337,537,267,557"/>
+<area shape="rect" id="Node000018" href="$vg_8c.html#aabf4eb98b365299fac5c2cb19dfe5c4d" title="Draw a rotated sprite to the screen." alt="" coords="515,579,672,604"/>
+<area shape="poly" id="edge21_Node000012_Node000018" title=" " alt="" coords="283,569,500,583,499,588,283,574"/>
+<area shape="rect" id="Node000014" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="558,304,629,330"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="445,452,466,441,497,418,526,391,571,340,575,344,530,395,501,422,469,446,448,457"/>
+<area shape="rect" id="Node000015" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="558,429,629,455"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="452,458,542,446,543,451,453,463"/>
+<area shape="poly" id="edge17_Node000016_Node000014" title=" " alt="" coords="449,501,466,491,483,473,492,457,500,438,513,415,570,340,574,343,518,418,505,440,497,459,487,477,469,495,451,506"/>
+<area shape="poly" id="edge19_Node000016_Node000015" title=" " alt="" coords="438,501,466,490,545,459,547,464,468,495,440,506"/>
+<area shape="rect" id="Node000017" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="734,355,800,380"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="459,514,507,510,561,502,617,488,670,465,694,450,714,431,747,391,751,395,718,434,697,454,673,470,619,493,562,507,507,516,459,519"/>
+<area shape="poly" id="edge22_Node000018_Node000007" title=" " alt="" coords="626,602,722,644,720,649,624,607"/>
+<area shape="poly" id="edge38_Node000020_Node000002" title=" " alt="" coords="225,253,280,163,310,117,329,92,335,88,338,92,333,96,314,120,284,166,229,256"/>
+<area shape="poly" id="edge49_Node000020_Node000017" title=" " alt="" coords="235,279,277,311,303,327,332,340,384,354,437,364,545,374,642,375,718,370,718,375,642,380,544,380,436,370,382,359,330,345,301,332,274,316,232,283"/>
+<area shape="rect" id="Node000021" href="$physics_8c.html#a4a137f49b98088a0dfa39e175f21edcc" title="Check if two circles are colliding." alt="" coords="353,405,446,431"/>
+<area shape="poly" id="edge26_Node000020_Node000021" title=" " alt="" coords="231,279,272,329,301,358,333,384,351,396,349,400,329,388,297,362,268,332,227,282"/>
+<area shape="rect" id="Node000022" href="$physics_8c.html#ad69ab1b3b4b45e326bba433a2ecfc437" title="Handle a collision between two circles." alt="" coords="343,107,456,132"/>
+<area shape="poly" id="edge29_Node000020_Node000022" title=" " alt="" coords="226,253,266,199,296,168,329,141,336,137,339,142,333,146,299,172,270,203,230,256"/>
+<area shape="rect" id="Node000027" href="$pool_8c.html#a3a0d2bcee34068413d9efd11c756509d" title="Handle a ball being pocketed." alt="" coords="338,255,460,280"/>
+<area shape="poly" id="edge39_Node000020_Node000027" title=" " alt="" coords="274,265,322,265,322,270,274,270"/>
+<area shape="rect" id="Node000028" href="$physics_8c.html#a09aa06345bb249d252e54348fb04eb50" title="Handle a wall collision." alt="" coords="331,205,467,231"/>
+<area shape="poly" id="edge40_Node000020_Node000028" title=" " alt="" coords="267,251,334,233,335,238,269,257"/>
+<area shape="rect" id="Node000029" href="$pool_8c.html#a962600472fb05c4f8f5feac51654d615" title=" " alt="" coords="339,304,459,330"/>
+<area shape="poly" id="edge43_Node000020_Node000029" title=" " alt="" coords="269,278,335,297,334,302,267,284"/>
+<area shape="rect" id="Node000030" href="$physics_8c.html#af840f3f7204cf4b677c66893ee3db1b1" title="Update the state of a body over a time interval." alt="" coords="369,156,429,182"/>
+<area shape="poly" id="edge44_Node000020_Node000030" title=" " alt="" coords="235,252,277,222,330,190,354,180,356,185,332,195,280,226,238,256"/>
+<area shape="poly" id="edge27_Node000021_Node000014" title=" " alt="" coords="425,402,552,335,555,340,427,407"/>
+<area shape="poly" id="edge28_Node000021_Node000015" title=" " alt="" coords="447,421,543,433,543,439,446,427"/>
+<area shape="poly" id="edge32_Node000022_Node000014" title=" " alt="" coords="455,131,469,142,484,161,491,181,494,218,496,255,503,273,517,291,530,300,544,307,542,312,527,305,513,295,499,276,491,256,488,219,486,182,479,164,465,145,451,135"/>
+<area shape="poly" id="edge35_Node000022_Node000015" title=" " alt="" coords="456,131,469,142,488,167,497,191,502,214,502,237,502,286,507,312,518,341,543,382,571,416,567,420,539,385,513,343,502,314,497,286,497,237,496,215,492,192,483,169,465,145,452,135"/>
+<area shape="rect" id="Node000023" href="$physics_8c.html#a5f86bdb2796ca99e45adb71dd55ad072" title=" " alt="" coords="525,107,662,132"/>
+<area shape="poly" id="edge30_Node000022_Node000023" title=" " alt="" coords="456,117,510,117,510,122,456,122"/>
+<area shape="rect" id="Node000024" href="$vector2_8c.html#a116ec78d31111ac66b5640e77cbcd417" title="Get dot product of two vectors." alt="" coords="733,81,801,107"/>
+<area shape="poly" id="edge33_Node000022_Node000024" title=" " alt="" coords="450,103,515,92,624,86,717,88,717,94,624,91,516,97,451,109"/>
+<area shape="rect" id="Node000025" href="$vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355" title="Multiply a vector by a scalar." alt="" coords="535,205,652,231"/>
+<area shape="poly" id="edge34_Node000022_Node000025" title=" " alt="" coords="448,131,469,141,484,154,493,167,502,180,517,192,524,196,522,201,514,196,498,184,489,171,480,158,466,146,446,135"/>
+<area shape="rect" id="Node000026" href="$vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78" title="Get unit vector of a vector." alt="" coords="558,156,629,182"/>
+<area shape="poly" id="edge36_Node000022_Node000026" title=" " alt="" coords="454,130,544,154,543,159,452,136"/>
+<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="662,107,717,99,718,104,663,112"/>
+<area shape="poly" id="edge37_Node000026_Node000017" title=" " alt="" coords="630,171,652,178,673,191,706,225,730,265,749,305,760,339,755,341,744,307,726,268,701,229,670,195,650,183,628,176"/>
+<area shape="poly" id="edge41_Node000028_Node000014" title=" " alt="" coords="448,229,469,240,484,253,493,266,502,279,517,291,545,303,542,308,514,295,498,282,489,269,480,257,466,244,446,234"/>
+<area shape="poly" id="edge42_Node000028_Node000025" title=" " alt="" coords="468,216,520,216,520,221,468,221"/>
+<area shape="poly" id="edge45_Node000030_Node000014" title=" " alt="" coords="431,172,451,179,469,191,481,204,488,217,494,242,500,267,506,279,517,291,545,306,542,310,514,295,502,282,495,269,488,244,483,219,476,207,466,195,448,184,429,177"/>
+<area shape="poly" id="edge47_Node000030_Node000025" title=" " alt="" coords="430,174,526,198,525,204,429,179"/>
+<area shape="poly" id="edge48_Node000030_Node000026" title=" " alt="" coords="430,166,543,166,543,172,430,172"/>
+<area shape="rect" id="Node000031" href="$vector2_8c.html#aa26e64f4c7f02cfa16873c99d62e3fbe" title="Check if two vector are equal." alt="" coords="550,255,637,280"/>
+<area shape="poly" id="edge46_Node000030_Node000031" title=" " alt="" coords="431,174,469,191,484,204,493,217,502,229,517,241,536,251,534,256,514,246,498,233,489,220,480,207,466,195,429,179"/>
+</map>

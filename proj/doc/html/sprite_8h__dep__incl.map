@@ -1,0 +1,16 @@
+<map id="view/sprite.h" name="view/sprite.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,221,31"/>
+<area shape="rect" id="Node000002" href="$vg_8h.html" title=" " alt="" coords="5,79,101,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,42,75,81,72,76,138,37"/>
+<area shape="rect" id="Node000005" href="$sprite_8c.html" title=" " alt="" coords="125,79,221,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="176,46,176,79,170,79,170,46"/>
+<area shape="rect" id="Node000006" href="$sprite__manager_8h.html" title=" " alt="" coords="245,79,397,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="213,36,297,76,295,81,211,41"/>
+<area shape="rect" id="Node000003" href="$vg_8c.html" title=" " alt="" coords="5,153,101,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,120,56,152,50,152,50,120"/>
+<area shape="rect" id="Node000004" href="$view_8c.html" title=" " alt="" coords="129,153,217,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="88,111,154,150,151,154,85,115"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="283,114,199,154,197,150,281,109"/>
+<area shape="rect" id="Node000007" href="$sprite__manager_8c.html" title=" " alt="" coords="245,153,397,178"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="324,120,324,152,318,152,318,120"/>
+</map>

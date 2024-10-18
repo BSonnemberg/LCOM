@@ -1,0 +1,66 @@
+\doxysection{io/queue.h File Reference}
+\hypertarget{queue_8h}{}\label{queue_8h}\index{io/queue.h@{io/queue.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for queue.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=141pt]{queue_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=141pt]{queue_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structstruct}{struct}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{queue_8h_afe2e6c8ef8951e37592f25d5dfb1602b}{enqueue}} (queue \texorpdfstring{$\ast$}{*}q, int val)
+\item 
+int \mbox{\hyperlink{queue_8h_a9feaa5a0df396a1cba0f8ad5680de97f}{dequeue}} (queue \texorpdfstring{$\ast$}{*}q, int \texorpdfstring{$\ast$}{*}val)
+\item 
+int \mbox{\hyperlink{queue_8h_a48a23be857fea2db244557c73d5c77dd}{get\+Size}} (queue \texorpdfstring{$\ast$}{*}q)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+node \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{queue_8h_a9afc38e973b813f01ec627e4e15f8b68}{back}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{queue_8h_a9feaa5a0df396a1cba0f8ad5680de97f}\index{queue.h@{queue.h}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!queue.h@{queue.h}}
+\doxysubsubsection{\texorpdfstring{dequeue()}{dequeue()}}
+{\footnotesize\ttfamily \label{queue_8h_a9feaa5a0df396a1cba0f8ad5680de97f} 
+int dequeue (\begin{DoxyParamCaption}\item[{queue \texorpdfstring{$\ast$}{*}}]{q}{, }\item[{int \texorpdfstring{$\ast$}{*}}]{val}{}\end{DoxyParamCaption})}
+
+\Hypertarget{queue_8h_afe2e6c8ef8951e37592f25d5dfb1602b}\index{queue.h@{queue.h}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!queue.h@{queue.h}}
+\doxysubsubsection{\texorpdfstring{enqueue()}{enqueue()}}
+{\footnotesize\ttfamily \label{queue_8h_afe2e6c8ef8951e37592f25d5dfb1602b} 
+int enqueue (\begin{DoxyParamCaption}\item[{queue \texorpdfstring{$\ast$}{*}}]{q}{, }\item[{int}]{val}{}\end{DoxyParamCaption})}
+
+\Hypertarget{queue_8h_a48a23be857fea2db244557c73d5c77dd}\index{queue.h@{queue.h}!getSize@{getSize}}
+\index{getSize@{getSize}!queue.h@{queue.h}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily \label{queue_8h_a48a23be857fea2db244557c73d5c77dd} 
+int get\+Size (\begin{DoxyParamCaption}\item[{queue \texorpdfstring{$\ast$}{*}}]{q}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{queue_8h_a9afc38e973b813f01ec627e4e15f8b68}\index{queue.h@{queue.h}!back@{back}}
+\index{back@{back}!queue.h@{queue.h}}
+\doxysubsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily \label{queue_8h_a9afc38e973b813f01ec627e4e15f8b68} 
+node\texorpdfstring{$\ast$}{*} back}
+

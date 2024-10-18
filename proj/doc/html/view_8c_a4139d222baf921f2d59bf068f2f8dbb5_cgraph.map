@@ -1,0 +1,26 @@
+<map id="render_menu_view" name="render_menu_view">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,136,204"/>
+<area shape="rect" id="Node000002" href="$rtc_8c.html#a146c10f18011024bd865a8ddc7a496ff" title="Update current date &amp; time." alt="" coords="190,53,308,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,176,123,134,152,110,182,88,190,84,193,88,185,92,155,114,127,138,85,180"/>
+<area shape="rect" id="Node000006" href="$vg_8c.html#a4d53728322f948683b768482bf4906e8" title=" " alt="" coords="184,103,314,128"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="102,176,202,132,204,137,104,181"/>
+<area shape="rect" id="Node000009" href="$vg_8c.html#a0220209f7e0687c64c76d7477c1b661e" title="Draw a sprite to the screen." alt="" coords="362,153,471,179"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="136,184,346,169,347,174,136,189"/>
+<area shape="rect" id="Node000010" href="$vg_8c.html#a955ec43388f6cf17586319b637e0293b" title="Flip the video buffer, given a double buffer architecture." alt="" coords="199,204,299,230"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="137,198,184,205,183,210,136,203"/>
+<area shape="rect" id="Node000011" href="$vg_8c.html#a30605f9ea0eba14831f032301efb89b6" title="Get screen horizontal resolution." alt="" coords="203,253,295,279"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="101,202,185,240,198,245,196,250,183,245,99,207"/>
+<area shape="rect" id="Node000012" href="$vg_8c.html#a3c18fdcf2a7591bf211ee3f00f41a998" title="Get screen vertical resolution." alt="" coords="203,303,295,328"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="86,203,127,245,185,289,193,293,190,298,182,294,124,249,82,207"/>
+<area shape="rect" id="Node000003" href="$rtc_8c.html#a405b6c273d8f15732977cc3234a1a4c0" title="Read contents of an RTC register." alt="" coords="383,5,451,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,50,367,29,368,35,297,55"/>
+<area shape="rect" id="Node000005" href="$rtc_8c.html#ab710920d4b62451b72339fcfa26bd6f4" title=" " alt="" coords="380,55,454,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="308,64,364,64,364,70,308,69"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a2b56f50ba159e9d5115ed1a75eff15d9" title=" " alt="" coords="521,5,612,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="451,16,506,16,506,21,451,21"/>
+<area shape="rect" id="Node000007" href="$vg_8c.html#adb08b276272848bc7f3bccc0f5e770c8" title=" " alt="" coords="365,104,469,130"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="315,113,349,114,349,119,314,119"/>
+<area shape="rect" id="Node000008" href="$vg_8c.html#a6ce9849b80332b95ac5c02c62574d646" title="Set the color of a screen pixel." alt="" coords="519,128,614,154"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="470,123,505,128,504,134,469,128"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="472,154,504,149,505,154,472,160"/>
+</map>

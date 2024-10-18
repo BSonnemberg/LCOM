@@ -1,0 +1,5 @@
+<map id="vec_unit" name="vec_unit">
+<area shape="rect" id="Node000001" title="Get unit vector of a vector." alt="" coords="5,5,76,31"/>
+<area shape="rect" id="Node000002" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="124,5,190,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,16,108,16,108,21,76,21"/>
+</map>

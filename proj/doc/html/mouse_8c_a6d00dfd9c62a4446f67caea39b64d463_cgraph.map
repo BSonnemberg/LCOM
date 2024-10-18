@@ -1,0 +1,15 @@
+<map id="mouse_enable_stream" name="mouse_enable_stream">
+<area shape="rect" id="Node000001" title="Enable mouse stream mode." alt="" coords="5,31,158,56"/>
+<area shape="rect" id="Node000002" href="$mouse_8c.html#ab62c8c6f483f4e577c5ef25d160d517a" title="Execute a mouse command." alt="" coords="206,31,333,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,41,190,41,190,46,158,46"/>
+<area shape="rect" id="Node000003" href="$kbc_8c.html#aae4c289b1c73874ea70c35ba09256e02" title="Read outbuf buffer of the kbc." alt="" coords="381,55,498,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,50,366,54,365,60,333,55"/>
+<area shape="rect" id="Node000006" href="$kbc_8c.html#a11626310a2d7eeda1eab4ff9695a92f0" title="Write byte to a kbc port." alt="" coords="401,5,478,31"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="333,31,385,24,386,29,334,37"/>
+<area shape="rect" id="Node000004" href="$kbc_8c.html#a2f901acc7ec2e88efa1f7eb391832e67" title="Get status/ configuration of the kbc." alt="" coords="546,5,657,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="484,51,542,33,543,39,485,57"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a2b56f50ba159e9d5115ed1a75eff15d9" title=" " alt="" coords="705,31,795,56"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="499,60,689,45,689,51,499,66"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="658,25,690,31,689,36,657,30"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="479,16,531,16,531,21,479,21"/>
+</map>

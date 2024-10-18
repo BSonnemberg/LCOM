@@ -1,0 +1,7 @@
+<map id="unload_sprites" name="unload_sprites">
+<area shape="rect" id="Node000001" title="Unload all game sprites." alt="" coords="290,5,395,31"/>
+<area shape="rect" id="Node000002" href="$view_8c.html#a7e37b23b2b55e32866bf327bc2ce908f" title="Stop (unload) the view." alt="" coords="162,5,242,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="274,21,242,21,242,16,274,16"/>
+<area shape="rect" id="Node000003" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,5,114,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>

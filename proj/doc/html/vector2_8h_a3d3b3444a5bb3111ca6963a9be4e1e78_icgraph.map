@@ -1,0 +1,21 @@
+<map id="vec_unit" name="vec_unit">
+<area shape="rect" id="Node000001" title="Get unit vector of a vector." alt="" coords="813,55,883,80"/>
+<area shape="rect" id="Node000002" href="$physics_8c.html#aa168ff285a6e3c2794605fc098e72335" title="Get the force of the shot." alt="" coords="637,5,765,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="797,53,740,34,742,29,799,48"/>
+<area shape="rect" id="Node000006" href="$physics_8c.html#ad69ab1b3b4b45e326bba433a2ecfc437" title="Handle a collision between two circles." alt="" coords="644,55,758,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="798,70,758,70,758,65,798,65"/>
+<area shape="rect" id="Node000009" href="$physics_8c.html#af840f3f7204cf4b677c66893ee3db1b1" title="Update the state of a body over a time interval." alt="" coords="671,104,731,130"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="799,87,732,109,730,104,798,81"/>
+<area shape="rect" id="Node000003" href="$controller_8c.html#a6d19b3835fc26c542cb98b9313e4aab2" title="Handle a mouse event." alt="" coords="308,7,428,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="621,21,429,22,429,17,621,16"/>
+<area shape="rect" id="Node000004" href="$controller_8c.html#ae4e806086b2964b3a2071f3a90e3f41b" title="Initialize the game controller by starting to listen to I/O interrupts." alt="" coords="162,32,260,58"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,34,261,40,260,34,292,29"/>
+<area shape="rect" id="Node000005" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,32,114,58"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,48,114,48,114,42,146,42"/>
+<area shape="rect" id="Node000007" href="$pool_8c.html#a3a29f4d6a35973014fff66761fd2a5e7" title="Update the physics of the game." alt="" coords="476,56,589,82"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="629,71,589,71,589,66,629,65"/>
+<area shape="rect" id="Node000008" href="$controller_8c.html#a8097e7972d060f9be32d53d10c8f8d18" title="Handle a timer tick event." alt="" coords="319,56,418,82"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="461,72,418,72,418,66,461,66"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="302,62,260,55,261,50,303,56"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="655,107,580,85,581,80,657,102"/>
+</map>

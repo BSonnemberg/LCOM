@@ -1,0 +1,125 @@
+\doxysection{io/rtc/rtc.c File Reference}
+\hypertarget{rtc_8c}{}\label{rtc_8c}\index{io/rtc/rtc.c@{io/rtc/rtc.c}}
+{\ttfamily \#include "{}rtc.\+h"{}}\newline
+Include dependency graph for rtc.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{rtc_8c__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{rtc_8c__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{rtc_8c_a405b6c273d8f15732977cc3234a1a4c0}{rtc\+\_\+read}} (uint8\+\_\+t reg, uint8\+\_\+t \texorpdfstring{$\ast$}{*}r)
+\begin{DoxyCompactList}\small\item\em Read contents of an RTC register. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{rtc_8c_a146c10f18011024bd865a8ddc7a496ff}{update\+\_\+datetime}} ()
+\begin{DoxyCompactList}\small\item\em Update current date \& time. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{rtc_8c_ab710920d4b62451b72339fcfa26bd6f4}{to\+\_\+binary}} (uint8\+\_\+t bcd)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structdate__t}{date\+\_\+t}} \mbox{\hyperlink{rtc_8c_a489889b08b4c620a178b6a3b58254694}{datetime}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{rtc_8c_a405b6c273d8f15732977cc3234a1a4c0}\index{rtc.c@{rtc.c}!rtc\_read@{rtc\_read}}
+\index{rtc\_read@{rtc\_read}!rtc.c@{rtc.c}}
+\doxysubsubsection{\texorpdfstring{rtc\_read()}{rtc\_read()}}
+{\footnotesize\ttfamily \label{rtc_8c_a405b6c273d8f15732977cc3234a1a4c0} 
+int rtc\+\_\+read (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{reg}{, }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{r}{}\end{DoxyParamCaption})}
+
+
+
+Read contents of an RTC register. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reg} & register to be read \\
+\hline
+{\em r} & placeholder for output result \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successful, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{rtc_8c_a405b6c273d8f15732977cc3234a1a4c0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{rtc_8c_a405b6c273d8f15732977cc3234a1a4c0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{rtc_8c_ab710920d4b62451b72339fcfa26bd6f4}\index{rtc.c@{rtc.c}!to\_binary@{to\_binary}}
+\index{to\_binary@{to\_binary}!rtc.c@{rtc.c}}
+\doxysubsubsection{\texorpdfstring{to\_binary()}{to\_binary()}}
+{\footnotesize\ttfamily \label{rtc_8c_ab710920d4b62451b72339fcfa26bd6f4} 
+uint8\+\_\+t to\+\_\+binary (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{bcd}{}\end{DoxyParamCaption})}
+
+Convert a BCD to a binary number 
+\begin{DoxyParams}{Parameters}
+{\em bcd} & bcd to be converted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+result of conversion 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{rtc_8c_ab710920d4b62451b72339fcfa26bd6f4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{rtc_8c_a146c10f18011024bd865a8ddc7a496ff}\index{rtc.c@{rtc.c}!update\_datetime@{update\_datetime}}
+\index{update\_datetime@{update\_datetime}!rtc.c@{rtc.c}}
+\doxysubsubsection{\texorpdfstring{update\_datetime()}{update\_datetime()}}
+{\footnotesize\ttfamily \label{rtc_8c_a146c10f18011024bd865a8ddc7a496ff} 
+int update\+\_\+datetime (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Update current date \& time. 
+
+\begin{DoxyReturn}{Returns}
+0 if successful, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{rtc_8c_a146c10f18011024bd865a8ddc7a496ff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{rtc_8c_a146c10f18011024bd865a8ddc7a496ff_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{rtc_8c_a489889b08b4c620a178b6a3b58254694}\index{rtc.c@{rtc.c}!datetime@{datetime}}
+\index{datetime@{datetime}!rtc.c@{rtc.c}}
+\doxysubsubsection{\texorpdfstring{datetime}{datetime}}
+{\footnotesize\ttfamily \label{rtc_8c_a489889b08b4c620a178b6a3b58254694} 
+\mbox{\hyperlink{structdate__t}{date\+\_\+t}} datetime}
+

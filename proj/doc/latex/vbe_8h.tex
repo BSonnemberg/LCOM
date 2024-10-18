@@ -1,0 +1,92 @@
+\doxysection{io/video/vbe.h File Reference}
+\hypertarget{vbe_8h}{}\label{vbe_8h}\index{io/video/vbe.h@{io/video/vbe.h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+Include dependency graph for vbe.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{vbe_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{vbe_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{vbe_8h_a9d120d89092a608ee5baf2000c0cd5af}{VBE}}~0x4F
+\item 
+\#define \mbox{\hyperlink{vbe_8h_a2e9c79c21bd1567e88d714a3966bb3cd}{VBE\+\_\+\+SETMODE}}~0x02
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{vbe_8h_a545507674d17fcbbf7d69dd3e6aca18f}{vbe\+\_\+set\+\_\+mode}} (uint16\+\_\+t mode)
+\begin{DoxyCompactList}\small\item\em Set the VBE video mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{vbe_8h_a514f0f5c7b63ee7f5b281c34860f82bf}{vbe\+\_\+flip\+\_\+buffer}} (uint32\+\_\+t \mbox{\hyperlink{vg_8c_a97e24a0857bb94fa5fc76ec2fd3caadf}{vres}})
+\begin{DoxyCompactList}\small\item\em Flip VBE video buffer, assuming a double buffer architecture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{vbe_8h_a9d120d89092a608ee5baf2000c0cd5af}\index{vbe.h@{vbe.h}!VBE@{VBE}}
+\index{VBE@{VBE}!vbe.h@{vbe.h}}
+\doxysubsubsection{\texorpdfstring{VBE}{VBE}}
+{\footnotesize\ttfamily \label{vbe_8h_a9d120d89092a608ee5baf2000c0cd5af} 
+\#define VBE~0x4F}
+
+\Hypertarget{vbe_8h_a2e9c79c21bd1567e88d714a3966bb3cd}\index{vbe.h@{vbe.h}!VBE\_SETMODE@{VBE\_SETMODE}}
+\index{VBE\_SETMODE@{VBE\_SETMODE}!vbe.h@{vbe.h}}
+\doxysubsubsection{\texorpdfstring{VBE\_SETMODE}{VBE\_SETMODE}}
+{\footnotesize\ttfamily \label{vbe_8h_a2e9c79c21bd1567e88d714a3966bb3cd} 
+\#define VBE\+\_\+\+SETMODE~0x02}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{vbe_8h_a514f0f5c7b63ee7f5b281c34860f82bf}\index{vbe.h@{vbe.h}!vbe\_flip\_buffer@{vbe\_flip\_buffer}}
+\index{vbe\_flip\_buffer@{vbe\_flip\_buffer}!vbe.h@{vbe.h}}
+\doxysubsubsection{\texorpdfstring{vbe\_flip\_buffer()}{vbe\_flip\_buffer()}}
+{\footnotesize\ttfamily \label{vbe_8h_a514f0f5c7b63ee7f5b281c34860f82bf} 
+int vbe\+\_\+flip\+\_\+buffer (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{vres}{}\end{DoxyParamCaption})}
+
+
+
+Flip VBE video buffer, assuming a double buffer architecture. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vres} & virtual screen resolution \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zero on success, non-\/0 otherwise 
+\end{DoxyReturn}
+\Hypertarget{vbe_8h_a545507674d17fcbbf7d69dd3e6aca18f}\index{vbe.h@{vbe.h}!vbe\_set\_mode@{vbe\_set\_mode}}
+\index{vbe\_set\_mode@{vbe\_set\_mode}!vbe.h@{vbe.h}}
+\doxysubsubsection{\texorpdfstring{vbe\_set\_mode()}{vbe\_set\_mode()}}
+{\footnotesize\ttfamily \label{vbe_8h_a545507674d17fcbbf7d69dd3e6aca18f} 
+int vbe\+\_\+set\+\_\+mode (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode}{}\end{DoxyParamCaption})}
+
+
+
+Set the VBE video mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & vbe mode to switch to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zero on success, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vbe_8h_a545507674d17fcbbf7d69dd3e6aca18f_icgraph}
+\end{center}
+\end{figure}

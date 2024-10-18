@@ -1,0 +1,15 @@
+<map id="init_view" name="init_view">
+<area shape="rect" id="Node000001" title="Initialize the view by loading all game resources." alt="" coords="5,55,78,80"/>
+<area shape="rect" id="Node000002" href="$sprite__manager_8c.html#a3d39d1edf4dd00233efcecf5a3f6507e" title="Load all game sprites." alt="" coords="135,5,226,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,52,127,34,129,39,79,57"/>
+<area shape="rect" id="Node000004" href="$vg_8c.html#a0220209f7e0687c64c76d7477c1b661e" title="Draw a sprite to the screen." alt="" coords="126,55,235,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="78,65,110,65,110,70,78,70"/>
+<area shape="rect" id="Node000006" href="$vg_8c.html#acc11b311c479b1904fd45e8c6da5fcc3" title=" " alt="" coords="151,104,210,130"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="79,78,137,99,135,104,77,83"/>
+<area shape="rect" id="Node000003" href="$sprite_8c.html#a60b7da6d4012bde333910f63600f1624" title="Create a new sprite." alt="" coords="288,5,384,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,16,273,16,273,21,226,21"/>
+<area shape="rect" id="Node000005" href="$vg_8c.html#a6ce9849b80332b95ac5c02c62574d646" title="Set the color of a screen pixel." alt="" coords="289,55,383,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,65,274,65,274,70,235,70"/>
+<area shape="rect" id="Node000007" href="$vbe_8c.html#a545507674d17fcbbf7d69dd3e6aca18f" title="Set the VBE video mode." alt="" coords="283,104,389,130"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="210,114,268,114,268,120,210,120"/>
+</map>

@@ -1,0 +1,64 @@
+\doxysection{io/video/vbe.c File Reference}
+\hypertarget{vbe_8c}{}\label{vbe_8c}\index{io/video/vbe.c@{io/video/vbe.c}}
+{\ttfamily \#include "{}vbe.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for vbe.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{vbe_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{vbe_8c_a545507674d17fcbbf7d69dd3e6aca18f}{vbe\+\_\+set\+\_\+mode}} (uint16\+\_\+t mode)
+\begin{DoxyCompactList}\small\item\em Set the VBE video mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{vbe_8c_a514f0f5c7b63ee7f5b281c34860f82bf}{vbe\+\_\+flip\+\_\+buffer}} (uint32\+\_\+t \mbox{\hyperlink{vg_8c_a97e24a0857bb94fa5fc76ec2fd3caadf}{vres}})
+\begin{DoxyCompactList}\small\item\em Flip VBE video buffer, assuming a double buffer architecture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{vbe_8c_a514f0f5c7b63ee7f5b281c34860f82bf}\index{vbe.c@{vbe.c}!vbe\_flip\_buffer@{vbe\_flip\_buffer}}
+\index{vbe\_flip\_buffer@{vbe\_flip\_buffer}!vbe.c@{vbe.c}}
+\doxysubsubsection{\texorpdfstring{vbe\_flip\_buffer()}{vbe\_flip\_buffer()}}
+{\footnotesize\ttfamily \label{vbe_8c_a514f0f5c7b63ee7f5b281c34860f82bf} 
+int vbe\+\_\+flip\+\_\+buffer (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{vres}{}\end{DoxyParamCaption})}
+
+
+
+Flip VBE video buffer, assuming a double buffer architecture. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vres} & virtual screen resolution \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zero on success, non-\/0 otherwise 
+\end{DoxyReturn}
+\Hypertarget{vbe_8c_a545507674d17fcbbf7d69dd3e6aca18f}\index{vbe.c@{vbe.c}!vbe\_set\_mode@{vbe\_set\_mode}}
+\index{vbe\_set\_mode@{vbe\_set\_mode}!vbe.c@{vbe.c}}
+\doxysubsubsection{\texorpdfstring{vbe\_set\_mode()}{vbe\_set\_mode()}}
+{\footnotesize\ttfamily \label{vbe_8c_a545507674d17fcbbf7d69dd3e6aca18f} 
+int vbe\+\_\+set\+\_\+mode (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode}{}\end{DoxyParamCaption})}
+
+
+
+Set the VBE video mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & vbe mode to switch to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zero on success, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{vbe_8c_a545507674d17fcbbf7d69dd3e6aca18f_icgraph}
+\end{center}
+\end{figure}

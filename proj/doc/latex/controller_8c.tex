@@ -1,0 +1,263 @@
+\doxysection{controller.\+c File Reference}
+\hypertarget{controller_8c}{}\label{controller_8c}\index{controller.c@{controller.c}}
+{\ttfamily \#include "{}controller.\+h"{}}\newline
+{\ttfamily \#include "{}view/view.\+h"{}}\newline
+{\ttfamily \#include "{}vector2.\+h"{}}\newline
+{\ttfamily \#include "{}io/rtc/rtc.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for controller.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{controller_8c_aeef602fd3a23c75fa2fbe232ae698cdb}{subscribe\+\_\+all\+\_\+int}} ()
+\begin{DoxyCompactList}\small\item\em Subscribe to all I/O interrupts. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{controller_8c_a12acc03c0aee8e3a877650dbbfd50b1c}{unsubscribe\+\_\+all\+\_\+int}} ()
+\begin{DoxyCompactList}\small\item\em Unsubscribe to all I/O interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{controller_8c_ae4e806086b2964b3a2071f3a90e3f41b}{init\+\_\+controller}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the game controller by starting to listen to I/O interrupts. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{controller_8c_a8097e7972d060f9be32d53d10c8f8d18}{on\+\_\+timer\+\_\+tick}} ()
+\begin{DoxyCompactList}\small\item\em Handle a timer tick event. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{controller_8c_a09cb759cc70200d65c8a4507792653bb}{on\+\_\+kbd\+\_\+event}} (\mbox{\hyperlink{structscancode}{scancode}} \texorpdfstring{$\ast$}{*}sc)
+\begin{DoxyCompactList}\small\item\em Handle a keyboard event. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{controller_8c_a6d19b3835fc26c542cb98b9313e4aab2}{on\+\_\+mouse\+\_\+event}} (\mbox{\hyperlink{structstruct}{struct}} packet \texorpdfstring{$\ast$}{*}pkt)
+\begin{DoxyCompactList}\small\item\em Handle a mouse event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{controller_8c_a6c85e27bf4220e0650f464a0fc52a198}{mouse\+\_\+leftdown}} = 0
+\item 
+uint16\+\_\+t \mbox{\hyperlink{controller_8c_aa092047b01c0247e8860b3c5b81949d0}{refresh\+\_\+time}}
+\item 
+static int \mbox{\hyperlink{controller_8c_ad2d842faca11d20814e3fc474271c0ea}{timer\+\_\+hook}}
+\item 
+static int \mbox{\hyperlink{controller_8c_a655114c5597909d686fafff730800fd5}{mouse\+\_\+hook}}
+\item 
+static int \mbox{\hyperlink{controller_8c_a58784d924da0b1756655fee630ba0584}{kbd\+\_\+hook}}
+\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\+\_\+pos}} = (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}})\{150, 300\}
+\item 
+int \mbox{\hyperlink{controller_8c_ad637c04364bbe95bdbf12a707adb07c0}{current\+\_\+menu\+\_\+item}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{controller_8c_ae4e806086b2964b3a2071f3a90e3f41b}\index{controller.c@{controller.c}!init\_controller@{init\_controller}}
+\index{init\_controller@{init\_controller}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{init\_controller()}{init\_controller()}}
+{\footnotesize\ttfamily \label{controller_8c_ae4e806086b2964b3a2071f3a90e3f41b} 
+void init\+\_\+controller (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialize the game controller by starting to listen to I/O interrupts. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_ae4e806086b2964b3a2071f3a90e3f41b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{controller_8c_ae4e806086b2964b3a2071f3a90e3f41b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{controller_8c_a09cb759cc70200d65c8a4507792653bb}\index{controller.c@{controller.c}!on\_kbd\_event@{on\_kbd\_event}}
+\index{on\_kbd\_event@{on\_kbd\_event}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{on\_kbd\_event()}{on\_kbd\_event()}}
+{\footnotesize\ttfamily \label{controller_8c_a09cb759cc70200d65c8a4507792653bb} 
+int on\+\_\+kbd\+\_\+event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structscancode}{scancode}} \texorpdfstring{$\ast$}{*}}]{sc}{}\end{DoxyParamCaption})}
+
+
+
+Handle a keyboard event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sc} & generated keyboard scancode \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a09cb759cc70200d65c8a4507792653bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a09cb759cc70200d65c8a4507792653bb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{controller_8c_a6d19b3835fc26c542cb98b9313e4aab2}\index{controller.c@{controller.c}!on\_mouse\_event@{on\_mouse\_event}}
+\index{on\_mouse\_event@{on\_mouse\_event}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{on\_mouse\_event()}{on\_mouse\_event()}}
+{\footnotesize\ttfamily \label{controller_8c_a6d19b3835fc26c542cb98b9313e4aab2} 
+int on\+\_\+mouse\+\_\+event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structstruct}{struct}} packet \texorpdfstring{$\ast$}{*}}]{pkt}{}\end{DoxyParamCaption})}
+
+
+
+Handle a mouse event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pkt} & generated mouse packet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a6d19b3835fc26c542cb98b9313e4aab2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a6d19b3835fc26c542cb98b9313e4aab2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{controller_8c_a8097e7972d060f9be32d53d10c8f8d18}\index{controller.c@{controller.c}!on\_timer\_tick@{on\_timer\_tick}}
+\index{on\_timer\_tick@{on\_timer\_tick}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{on\_timer\_tick()}{on\_timer\_tick()}}
+{\footnotesize\ttfamily \label{controller_8c_a8097e7972d060f9be32d53d10c8f8d18} 
+int on\+\_\+timer\+\_\+tick (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Handle a timer tick event. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a8097e7972d060f9be32d53d10c8f8d18_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_a8097e7972d060f9be32d53d10c8f8d18_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{controller_8c_aeef602fd3a23c75fa2fbe232ae698cdb}\index{controller.c@{controller.c}!subscribe\_all\_int@{subscribe\_all\_int}}
+\index{subscribe\_all\_int@{subscribe\_all\_int}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{subscribe\_all\_int()}{subscribe\_all\_int()}}
+{\footnotesize\ttfamily \label{controller_8c_aeef602fd3a23c75fa2fbe232ae698cdb} 
+int subscribe\+\_\+all\+\_\+int (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Subscribe to all I/O interrupts. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of an i/o error 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{controller_8c_aeef602fd3a23c75fa2fbe232ae698cdb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{controller_8c_aeef602fd3a23c75fa2fbe232ae698cdb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{controller_8c_a12acc03c0aee8e3a877650dbbfd50b1c}\index{controller.c@{controller.c}!unsubscribe\_all\_int@{unsubscribe\_all\_int}}
+\index{unsubscribe\_all\_int@{unsubscribe\_all\_int}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{unsubscribe\_all\_int()}{unsubscribe\_all\_int()}}
+{\footnotesize\ttfamily \label{controller_8c_a12acc03c0aee8e3a877650dbbfd50b1c} 
+int unsubscribe\+\_\+all\+\_\+int (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Unsubscribe to all I/O interrupts. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of an i/o error 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{controller_8c_a12acc03c0aee8e3a877650dbbfd50b1c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{controller_8c_a12acc03c0aee8e3a877650dbbfd50b1c_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{controller_8c_ad637c04364bbe95bdbf12a707adb07c0}\index{controller.c@{controller.c}!current\_menu\_item@{current\_menu\_item}}
+\index{current\_menu\_item@{current\_menu\_item}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{current\_menu\_item}{current\_menu\_item}}
+{\footnotesize\ttfamily \label{controller_8c_ad637c04364bbe95bdbf12a707adb07c0} 
+int current\+\_\+menu\+\_\+item = 0}
+
+\Hypertarget{controller_8c_a58784d924da0b1756655fee630ba0584}\index{controller.c@{controller.c}!kbd\_hook@{kbd\_hook}}
+\index{kbd\_hook@{kbd\_hook}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{kbd\_hook}{kbd\_hook}}
+{\footnotesize\ttfamily \label{controller_8c_a58784d924da0b1756655fee630ba0584} 
+int kbd\+\_\+hook\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{controller_8c_a655114c5597909d686fafff730800fd5}\index{controller.c@{controller.c}!mouse\_hook@{mouse\_hook}}
+\index{mouse\_hook@{mouse\_hook}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_hook}{mouse\_hook}}
+{\footnotesize\ttfamily \label{controller_8c_a655114c5597909d686fafff730800fd5} 
+int mouse\+\_\+hook\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{controller_8c_a6c85e27bf4220e0650f464a0fc52a198}\index{controller.c@{controller.c}!mouse\_leftdown@{mouse\_leftdown}}
+\index{mouse\_leftdown@{mouse\_leftdown}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_leftdown}{mouse\_leftdown}}
+{\footnotesize\ttfamily \label{controller_8c_a6c85e27bf4220e0650f464a0fc52a198} 
+bool mouse\+\_\+leftdown = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{controller_8c_a856104bd877eda3d567a3d37a7d8b957}\index{controller.c@{controller.c}!mouse\_pos@{mouse\_pos}}
+\index{mouse\_pos@{mouse\_pos}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_pos}{mouse\_pos}}
+{\footnotesize\ttfamily \label{controller_8c_a856104bd877eda3d567a3d37a7d8b957} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} mouse\+\_\+pos = (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}})\{150, 300\}}
+
+\Hypertarget{controller_8c_aa092047b01c0247e8860b3c5b81949d0}\index{controller.c@{controller.c}!refresh\_time@{refresh\_time}}
+\index{refresh\_time@{refresh\_time}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{refresh\_time}{refresh\_time}}
+{\footnotesize\ttfamily \label{controller_8c_aa092047b01c0247e8860b3c5b81949d0} 
+uint16\+\_\+t refresh\+\_\+time\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{controller_8c_ad2d842faca11d20814e3fc474271c0ea}\index{controller.c@{controller.c}!timer\_hook@{timer\_hook}}
+\index{timer\_hook@{timer\_hook}!controller.c@{controller.c}}
+\doxysubsubsection{\texorpdfstring{timer\_hook}{timer\_hook}}
+{\footnotesize\ttfamily \label{controller_8c_ad2d842faca11d20814e3fc474271c0ea} 
+int timer\+\_\+hook\hspace{0.3cm}{\ttfamily [static]}}
+

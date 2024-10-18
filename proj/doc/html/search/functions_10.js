@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['vbe_5fflip_5fbuffer_0',['vbe_flip_buffer',['../vbe_8c.html#a514f0f5c7b63ee7f5b281c34860f82bf',1,'vbe_flip_buffer(uint32_t vres):&#160;vbe.c'],['../vbe_8h.html#a514f0f5c7b63ee7f5b281c34860f82bf',1,'vbe_flip_buffer(uint32_t vres):&#160;vbe.c']]],
+  ['vbe_5fset_5fmode_1',['vbe_set_mode',['../vbe_8c.html#a545507674d17fcbbf7d69dd3e6aca18f',1,'vbe_set_mode(uint16_t mode):&#160;vbe.c'],['../vbe_8h.html#a545507674d17fcbbf7d69dd3e6aca18f',1,'vbe_set_mode(uint16_t mode):&#160;vbe.c']]],
+  ['vec_5fadd_2',['vec_add',['../vector2_8c.html#ad2a596b81b174f603d371e6650c2b593',1,'vec_add(vec_2d v1, vec_2d v2):&#160;vector2.c'],['../vector2_8h.html#ad2a596b81b174f603d371e6650c2b593',1,'vec_add(vec_2d v1, vec_2d v2):&#160;vector2.c']]],
+  ['vec_5fadd_5fscalar_3',['vec_add_scalar',['../vector2_8c.html#a168342306fdd036d9065f61c8d9b880d',1,'vec_add_scalar(vec_2d v, float scalar):&#160;vector2.c'],['../vector2_8h.html#ae48c327fa5564233e66b91c97dec3515',1,'vec_add_scalar(vec_2d v1, float scalar):&#160;vector2.c']]],
+  ['vec_5fdot_4',['vec_dot',['../vector2_8c.html#a116ec78d31111ac66b5640e77cbcd417',1,'vec_dot(vec_2d v1, vec_2d v2):&#160;vector2.c'],['../vector2_8h.html#a116ec78d31111ac66b5640e77cbcd417',1,'vec_dot(vec_2d v1, vec_2d v2):&#160;vector2.c']]],
+  ['vec_5fequals_5',['vec_equals',['../vector2_8c.html#aa26e64f4c7f02cfa16873c99d62e3fbe',1,'vec_equals(vec_2d v1, vec_2d v2):&#160;vector2.c'],['../vector2_8h.html#aa26e64f4c7f02cfa16873c99d62e3fbe',1,'vec_equals(vec_2d v1, vec_2d v2):&#160;vector2.c']]],
+  ['vec_5flen_6',['vec_len',['../vector2_8c.html#a63cd4be62382844c7c506ca159e416ae',1,'vec_len(vec_2d v):&#160;vector2.c'],['../vector2_8h.html#a63cd4be62382844c7c506ca159e416ae',1,'vec_len(vec_2d v):&#160;vector2.c']]],
+  ['vec_5fmult_7',['vec_mult',['../vector2_8c.html#a29569c4c74f1c104a0d71c2c49d39102',1,'vec_mult(vec_2d v1, vec_2d v2):&#160;vector2.c'],['../vector2_8h.html#a29569c4c74f1c104a0d71c2c49d39102',1,'vec_mult(vec_2d v1, vec_2d v2):&#160;vector2.c']]],
+  ['vec_5fmult_5fscalar_8',['vec_mult_scalar',['../vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355',1,'vec_mult_scalar(vec_2d v, float scalar):&#160;vector2.c'],['../vector2_8h.html#a6a03805da71a22e33dcaf580ff426674',1,'vec_mult_scalar(vec_2d v1, float scalar):&#160;vector2.c']]],
+  ['vec_5fneg_9',['vec_neg',['../vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359',1,'vec_neg(vec_2d v):&#160;vector2.c'],['../vector2_8h.html#aa7a39492994c0ff3693cc65bc4b1b359',1,'vec_neg(vec_2d v):&#160;vector2.c']]],
+  ['vec_5fnormal_10',['vec_normal',['../vector2_8c.html#a955af94cdaf2322e62b19e17fd5494a0',1,'vec_normal(vec_2d v):&#160;vector2.c'],['../vector2_8h.html#a955af94cdaf2322e62b19e17fd5494a0',1,'vec_normal(vec_2d v):&#160;vector2.c']]],
+  ['vec_5fsign_11',['vec_sign',['../vector2_8c.html#a774dce88b11449d42960428d44ae745f',1,'vec_sign(vec_2d v):&#160;vector2.c'],['../vector2_8h.html#a774dce88b11449d42960428d44ae745f',1,'vec_sign(vec_2d v):&#160;vector2.c']]],
+  ['vec_5funit_12',['vec_unit',['../vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78',1,'vec_unit(vec_2d v):&#160;vector2.c'],['../vector2_8h.html#a3d3b3444a5bb3111ca6963a9be4e1e78',1,'vec_unit(vec_2d v):&#160;vector2.c']]],
+  ['vg_5fdraw_5fhline_13',['vg_draw_hline',['../vg_8c.html#adb08b276272848bc7f3bccc0f5e770c8',1,'vg.c']]],
+  ['vg_5fdraw_5frectangle_14',['vg_draw_rectangle',['../vg_8c.html#a4d53728322f948683b768482bf4906e8',1,'vg.c']]],
+  ['vg_5fdraw_5fsprite_15',['vg_draw_sprite',['../vg_8c.html#a0220209f7e0687c64c76d7477c1b661e',1,'vg_draw_sprite(sprite *sp, uint16_t x, uint16_t y):&#160;vg.c'],['../vg_8h.html#a0220209f7e0687c64c76d7477c1b661e',1,'vg_draw_sprite(sprite *sp, uint16_t x, uint16_t y):&#160;vg.c']]],
+  ['vg_5fdraw_5fsprite_5frotated_16',['vg_draw_sprite_rotated',['../vg_8c.html#aabf4eb98b365299fac5c2cb19dfe5c4d',1,'vg_draw_sprite_rotated(sprite *sp, uint16_t x, uint16_t y, double angle, uint8_t padding):&#160;vg.c'],['../vg_8h.html#aabf4eb98b365299fac5c2cb19dfe5c4d',1,'vg_draw_sprite_rotated(sprite *sp, uint16_t x, uint16_t y, double angle, uint8_t padding):&#160;vg.c']]],
+  ['vg_5fflip_5fbuffer_17',['vg_flip_buffer',['../vg_8c.html#a955ec43388f6cf17586319b637e0293b',1,'vg_flip_buffer():&#160;vg.c'],['../vg_8h.html#a955ec43388f6cf17586319b637e0293b',1,'vg_flip_buffer():&#160;vg.c']]],
+  ['vg_5fget_5fhres_18',['vg_get_hres',['../vg_8c.html#a30605f9ea0eba14831f032301efb89b6',1,'vg_get_hres():&#160;vg.c'],['../vg_8h.html#a30605f9ea0eba14831f032301efb89b6',1,'vg_get_hres():&#160;vg.c']]],
+  ['vg_5fget_5fvres_19',['vg_get_vres',['../vg_8c.html#a3c18fdcf2a7591bf211ee3f00f41a998',1,'vg_get_vres():&#160;vg.c'],['../vg_8h.html#a3c18fdcf2a7591bf211ee3f00f41a998',1,'vg_get_vres():&#160;vg.c']]],
+  ['vg_5finit_20',['vg_init',['../vg_8c.html#acc11b311c479b1904fd45e8c6da5fcc3',1,'vg.c']]],
+  ['vg_5fset_5fpixel_21',['vg_set_pixel',['../vg_8c.html#a6ce9849b80332b95ac5c02c62574d646',1,'vg_set_pixel(uint16_t x, uint16_t y, uint32_t color):&#160;vg.c'],['../vg_8h.html#a6ce9849b80332b95ac5c02c62574d646',1,'vg_set_pixel(uint16_t x, uint16_t y, uint32_t color):&#160;vg.c']]]
+];

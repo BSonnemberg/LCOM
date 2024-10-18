@@ -1,0 +1,44 @@
+<map id="update_physics" name="update_physics">
+<area shape="rect" id="Node000001" title="Update the physics of the game." alt="" coords="5,305,118,331"/>
+<area shape="rect" id="Node000002" href="$physics_8c.html#a4a137f49b98088a0dfa39e175f21edcc" title="Check if two circles are colliding." alt="" coords="187,119,281,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,304,99,233,128,191,164,153,172,148,175,152,167,158,132,194,104,236,70,306"/>
+<area shape="rect" id="Node000005" href="$physics_8c.html#ad69ab1b3b4b45e326bba433a2ecfc437" title="Handle a collision between two circles." alt="" coords="177,168,291,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="76,303,164,227,199,201,202,205,167,231,79,307"/>
+<area shape="rect" id="Node000010" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="541,280,607,306"/>
+<area shape="poly" id="edge25_Node000001_Node000010" title=" " alt="" coords="115,329,190,344,285,355,389,356,441,351,492,340,519,328,544,313,547,317,522,333,493,345,442,356,389,362,284,361,189,349,114,334"/>
+<area shape="rect" id="Node000011" href="$pool_8c.html#ab146259d751a671adbde02958697da71" title="Handle an event amidst a pool game." alt="" coords="185,405,283,431"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="83,329,167,384,190,396,187,401,164,388,80,334"/>
+<area shape="rect" id="Node000013" href="$pool_8c.html#a3a0d2bcee34068413d9efd11c756509d" title="Handle a ball being pocketed." alt="" coords="173,455,295,480"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="73,330,109,384,136,414,167,441,173,445,170,449,164,446,132,418,105,387,68,333"/>
+<area shape="rect" id="Node000014" href="$physics_8c.html#a09aa06345bb249d252e54348fb04eb50" title="Handle a wall collision." alt="" coords="166,241,302,267"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="96,302,165,276,180,270,181,275,167,281,98,307"/>
+<area shape="rect" id="Node000015" href="$pool_8c.html#a962600472fb05c4f8f5feac51654d615" title=" " alt="" coords="174,504,294,530"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="69,330,82,363,102,406,131,451,167,491,171,494,168,498,164,495,126,454,97,408,77,365,65,332"/>
+<area shape="rect" id="Node000016" href="$physics_8c.html#af840f3f7204cf4b677c66893ee3db1b1" title="Update the state of a body over a time interval." alt="" coords="204,291,264,316"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="118,311,188,305,189,310,118,316"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="386,156,456,182"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,138,372,156,370,162,280,143"/>
+<area shape="rect" id="Node000004" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="386,5,456,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="247,116,291,79,349,40,370,30,373,35,351,44,294,83,251,120"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="291,175,370,169,371,175,291,180"/>
+<area shape="poly" id="edge10_Node000005_Node000004" title=" " alt="" coords="285,165,300,155,312,141,318,127,323,99,329,70,336,55,348,40,370,27,373,31,352,44,340,58,334,71,329,100,323,129,316,144,304,159,288,170"/>
+<area shape="rect" id="Node000006" href="$physics_8c.html#a5f86bdb2796ca99e45adb71dd55ad072" title=" " alt="" coords="353,55,489,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="281,165,300,155,315,141,324,127,333,113,348,97,368,85,370,90,352,102,337,116,329,130,319,144,304,159,284,170"/>
+<area shape="rect" id="Node000007" href="$vector2_8c.html#a116ec78d31111ac66b5640e77cbcd417" title="Get dot product of two vectors." alt="" coords="540,80,608,106"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="273,165,349,141,524,100,526,105,351,146,275,170"/>
+<area shape="rect" id="Node000008" href="$vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355" title="Multiply a vector by a scalar." alt="" coords="363,255,479,280"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="258,192,351,241,364,246,362,251,349,246,256,197"/>
+<area shape="rect" id="Node000009" href="$vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78" title="Get unit vector of a vector." alt="" coords="386,205,456,231"/>
+<area shape="poly" id="edge11_Node000005_Node000009" title=" " alt="" coords="292,190,371,206,370,211,291,195"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="490,76,525,82,524,87,489,81"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="458,226,493,240,543,269,541,273,491,245,456,231"/>
+<area shape="rect" id="Node000012" href="$pool_8c.html#a1dfe8d08afdb69317754b37bf4c90cbb" title=" " alt="" coords="350,405,492,431"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="283,416,334,416,334,421,283,421"/>
+<area shape="poly" id="edge17_Node000014_Node000003" title=" " alt="" coords="256,238,349,190,370,182,372,187,351,195,259,243"/>
+<area shape="poly" id="edge18_Node000014_Node000008" title=" " alt="" coords="303,256,348,260,347,265,302,262"/>
+<area shape="poly" id="edge21_Node000016_Node000003" title=" " alt="" coords="264,295,283,288,300,278,317,257,323,235,331,213,348,191,370,178,373,182,352,195,335,216,328,237,321,259,304,281,285,293,265,300"/>
+<area shape="poly" id="edge23_Node000016_Node000008" title=" " alt="" coords="264,295,347,279,348,284,265,300"/>
+<area shape="poly" id="edge24_Node000016_Node000009" title=" " alt="" coords="264,293,301,277,324,259,349,240,370,230,373,235,351,244,328,263,303,282,266,298"/>
+<area shape="rect" id="Node000017" href="$vector2_8c.html#aa26e64f4c7f02cfa16873c99d62e3fbe" title="Check if two vector are equal." alt="" coords="378,304,465,330"/>
+<area shape="poly" id="edge22_Node000016_Node000017" title=" " alt="" coords="265,303,362,310,362,315,264,308"/>
+</map>

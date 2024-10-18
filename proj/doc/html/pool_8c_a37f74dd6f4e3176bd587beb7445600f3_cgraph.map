@@ -1,0 +1,9 @@
+<map id="get_cue_padding" name="get_cue_padding">
+<area shape="rect" id="Node000001" title="Get the padding of the cue stick from the cue ball based on the mouse position." alt="" coords="5,55,125,80"/>
+<area shape="rect" id="Node000002" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="173,5,243,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,52,157,33,159,38,106,57"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="175,55,241,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,65,159,65,159,70,125,70"/>
+<area shape="rect" id="Node000004" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="173,104,243,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="106,78,159,97,157,102,104,83"/>
+</map>

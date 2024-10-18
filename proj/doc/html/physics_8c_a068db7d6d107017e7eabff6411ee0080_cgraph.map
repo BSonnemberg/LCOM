@@ -1,0 +1,7 @@
+<map id="get_cue_angle" name="get_cue_angle">
+<area shape="rect" id="Node000001" title="Get the angle of the cue stick." alt="" coords="5,31,111,56"/>
+<area shape="rect" id="Node000002" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="159,5,229,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,31,143,25,144,30,112,36"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="159,55,229,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,50,144,56,143,61,111,55"/>
+</map>

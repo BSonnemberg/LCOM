@@ -1,0 +1,37 @@
+\doxysection{controller.\+h}
+\hypertarget{controller_8h_source}{}\label{controller_8h_source}\mbox{\hyperlink{controller_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CONTROLLER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CONTROLLER\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{keyboard_8h}{io/keyboard/keyboard.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{mouse_8h}{io/mouse/mouse.h}}"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ GAME\_FREQ\ 60}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \{}
+\DoxyCodeLine{00010\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7ad1110959cd9312a756c5fb1d0f0eab8d}{TIMER\_TICK}},}
+\DoxyCodeLine{00011\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a98dce3072288cb835c1424e226826f18}{KBD\_ENTER}},}
+\DoxyCodeLine{00012\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a191d6e0b8ea35e681eb7a1a41285e3da}{KBD\_ARROWUP}},}
+\DoxyCodeLine{00013\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a784480cdcb4bab7105b111ab8bf1663e}{KBD\_ARROWDOWN}},}
+\DoxyCodeLine{00014\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a0d8f34d599b67d53fd30e019fb21d422}{KBD\_B\_PRESS}},}
+\DoxyCodeLine{00015\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a2db30dba6cbdd24ac97d2fe826e9671d}{MOUSE\_UP}},}
+\DoxyCodeLine{00016\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a1306a35879ed8211af4325afa38c8c08}{MOUSE\_DOWN}},}
+\DoxyCodeLine{00017\ \ \ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7a7513d383f97428a41f8b44594874d469}{MOUSE\_MOVE}}}
+\DoxyCodeLine{00018\ \}\ \mbox{\hyperlink{controller_8h_a829c43c139383ea63e2cc24c3ad0a5d7}{io\_event}};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00024\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{controller_8h_ae4e806086b2964b3a2071f3a90e3f41b}{init\_controller}}();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{controller_8h_aeef602fd3a23c75fa2fbe232ae698cdb}{subscribe\_all\_int}}();}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{controller_8h_a12acc03c0aee8e3a877650dbbfd50b1c}{unsubscribe\_all\_int}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{controller_8h_a8097e7972d060f9be32d53d10c8f8d18}{on\_timer\_tick}}();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00049\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{controller_8h_a09cb759cc70200d65c8a4507792653bb}{on\_kbd\_event}}(\mbox{\hyperlink{structscancode}{scancode}}\ *sc);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{controller_8h_a6d19b3835fc26c542cb98b9313e4aab2}{on\_mouse\_event}}(\textcolor{keyword}{struct}\ packet\ *pkt);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

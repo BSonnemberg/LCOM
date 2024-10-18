@@ -1,0 +1,32 @@
+<map id="vec_neg" name="vec_neg">
+<area shape="rect" id="Node000001" title="Negate a 2d vector." alt="" coords="831,104,901,130"/>
+<area shape="rect" id="Node000002" href="$physics_8c.html#a4a137f49b98088a0dfa39e175f21edcc" title="Check if two circles are colliding." alt="" coords="672,5,766,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="841,94,814,69,782,44,761,34,763,29,784,40,817,64,845,90"/>
+<area shape="rect" id="Node000007" href="$physics_8c.html#a068db7d6d107017e7eabff6411ee0080" title="Get the angle of the cue stick." alt="" coords="666,104,772,130"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="815,120,772,120,772,114,815,114"/>
+<area shape="rect" id="Node000010" href="$pool_8c.html#a37f74dd6f4e3176bd587beb7445600f3" title="Get the padding of the cue stick from the cue ball based on the mouse position." alt="" coords="659,153,779,179"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="817,136,760,155,758,150,815,131"/>
+<area shape="rect" id="Node000011" href="$physics_8c.html#aa168ff285a6e3c2794605fc098e72335" title="Get the force of the shot." alt="" coords="655,203,783,228"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="845,143,817,169,784,194,763,205,761,200,782,189,814,165,841,139"/>
+<area shape="rect" id="Node000013" href="$physics_8c.html#ad69ab1b3b4b45e326bba433a2ecfc437" title="Handle a collision between two circles." alt="" coords="662,55,776,80"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="815,103,758,83,760,78,817,98"/>
+<area shape="rect" id="Node000003" href="$pool_8c.html#a3a29f4d6a35973014fff66761fd2a5e7" title="Update the physics of the game." alt="" coords="485,55,598,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="658,38,591,57,590,52,656,33"/>
+<area shape="rect" id="Node000004" href="$controller_8c.html#a8097e7972d060f9be32d53d10c8f8d18" title="Handle a timer tick event." alt="" coords="319,92,418,118"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,85,419,97,418,92,469,80"/>
+<area shape="rect" id="Node000005" href="$controller_8c.html#ae4e806086b2964b3a2071f3a90e3f41b" title="Initialize the game controller by starting to listen to I/O interrupts." alt="" coords="162,141,260,167"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,125,255,143,254,138,309,120"/>
+<area shape="rect" id="Node000006" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,141,114,167"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="146,157,114,157,114,152,146,152"/>
+<area shape="rect" id="Node000008" href="$view_8c.html#a931260dc0e1c4f4a4a356d156a3787ac" title="Render the game view." alt="" coords="476,128,607,154"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="651,129,608,135,607,129,650,123"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="461,127,418,118,419,112,462,122"/>
+<area shape="rect" id="Node000009" href="$controller_8c.html#a09cb759cc70200d65c8a4507792653bb" title="Handle a keyboard event." alt="" coords="317,141,419,167"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="461,150,420,153,419,148,461,144"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="301,157,261,157,261,152,301,152"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="643,158,607,153,607,148,644,153"/>
+<area shape="rect" id="Node000012" href="$controller_8c.html#a6d19b3835fc26c542cb98b9313e4aab2" title="Handle a mouse event." alt="" coords="308,191,428,216"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="639,215,428,208,429,203,639,210"/>
+<area shape="poly" id="edge15_Node000012_Node000005" title=" " alt="" coords="309,188,254,170,255,165,311,183"/>
+<area shape="poly" id="edge17_Node000013_Node000003" title=" " alt="" coords="647,70,598,70,598,65,647,65"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="handle_wallcollision" name="handle_wallcollision">
+<area shape="rect" id="Node000001" title="Handle a wall collision." alt="" coords="5,31,142,56"/>
+<area shape="rect" id="Node000002" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="213,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,31,197,23,198,28,143,36"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355" title="Multiply a vector by a scalar." alt="" coords="190,55,306,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,50,175,55,174,60,142,56"/>
+</map>

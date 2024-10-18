@@ -1,0 +1,5 @@
+<map id="unload_sprites" name="unload_sprites">
+<area shape="rect" id="Node000001" title="Unload all game sprites." alt="" coords="5,5,111,31"/>
+<area shape="rect" id="Node000002" href="$sprite_8c.html#a1758ccffd8e45ee364a67950be1cdfbf" title="Destroy a sprite." alt="" coords="159,5,262,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,16,143,16,143,21,111,21"/>
+</map>

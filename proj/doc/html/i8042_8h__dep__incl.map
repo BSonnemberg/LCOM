@@ -1,0 +1,19 @@
+<map id="io/i8042.h" name="io/i8042.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,5,214,31"/>
+<area shape="rect" id="Node000002" href="$kbc_8h.html" title=" " alt="" coords="141,79,209,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,46,178,79,172,79,172,46"/>
+<area shape="rect" id="Node000003" href="$kbc_8c.html" title=" " alt="" coords="5,153,73,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,115,63,154,61,150,137,110"/>
+<area shape="rect" id="Node000004" href="$keyboard_8h.html" title=" " alt="" coords="97,153,253,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="178,120,178,152,172,152,172,120"/>
+<area shape="rect" id="Node000009" href="$mouse_8c.html" title=" " alt="" coords="278,153,406,178"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="218,109,314,150,312,155,216,114"/>
+<area shape="rect" id="Node000005" href="$controller_8h.html" title=" " alt="" coords="61,226,145,252"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="154,191,117,228,113,224,150,187"/>
+<area shape="rect" id="Node000008" href="$keyboard_8c.html" title=" " alt="" coords="169,226,325,252"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="200,187,237,224,233,228,196,191"/>
+<area shape="rect" id="Node000006" href="$controller_8c.html" title=" " alt="" coords="14,300,99,326"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="89,266,66,301,62,298,85,263"/>
+<area shape="rect" id="Node000007" href="$proj_8c.html" title=" " alt="" coords="123,300,176,326"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="121,263,144,298,140,301,117,266"/>
+</map>

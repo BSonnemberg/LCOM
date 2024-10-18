@@ -1,0 +1,45 @@
+\doxysection{physics.\+h}
+\hypertarget{physics_8h_source}{}\label{physics_8h_source}\mbox{\hyperlink{physics_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ PHYSICS\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ PHYSICS\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{vector2_8h}{vector2.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ EARTH\_ACC\ 9.81}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ TIME\_STEP\ 0.01667f}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ X\_MIN\ 62}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ X\_MAX\ 755}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ Y\_MIN\ 170}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ Y\_MAX\ 549}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00016\ \ \ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{structball_aa3d64920cc4330ed1722ba2768d7c0e1}{pos}};}
+\DoxyCodeLine{00017\ \ \ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{structball_a4db8aed1a13dcf8ab7c93c3f002b73a8}{vel}};}
+\DoxyCodeLine{00018\ \ \ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{structball_a3eece2218359c98e6f75ed6b6e26aed1}{acc}};}
+\DoxyCodeLine{00019\ \ \ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{structball_a5a0ba6dba46e6d67000bd7461c0c4d86}{force}};}
+\DoxyCodeLine{00020\ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structball_a92aedbe2db5ce77914d5e5487412fb8a}{mass}};}
+\DoxyCodeLine{00021\ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structball_ae727edecff6381632f07917d69c613ea}{radius}};}
+\DoxyCodeLine{00022\ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structball_afd88b8122f39c398abf89eeff5323882}{friction\_coef}};}
+\DoxyCodeLine{00023\ \}\ \mbox{\hyperlink{structball}{ball}};}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{physics_8h_a00a35c3241194cf935caa1048c81c871}{update}}(\mbox{\hyperlink{structball}{ball}}\ *body);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{physics_8h_a4a137f49b98088a0dfa39e175f21edcc}{are\_colliding}}(\mbox{\hyperlink{structball}{ball}}\ *c1,\ \mbox{\hyperlink{structball}{ball}}\ *c2);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437}{handle\_collision}}(\mbox{\hyperlink{structball}{ball}}\ *c1,\ \mbox{\hyperlink{structball}{ball}}\ *c2);}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00049\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072}{get\_timeof\_collision}}(\mbox{\hyperlink{structball}{ball}}\ *c1,\ \mbox{\hyperlink{structball}{ball}}\ *c2,\ \mbox{\hyperlink{structvec}{vec\_2d}}\ r,\ \mbox{\hyperlink{structvec}{vec\_2d}}\ v);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{physics_8h_a09aa06345bb249d252e54348fb04eb50}{handle\_wallcollision}}(\mbox{\hyperlink{structball}{ball}}\ *b,\ \textcolor{keywordtype}{bool}*\ \mbox{\hyperlink{pool_8c_a561890a48eec952484f0d90cbcc8fba3}{hit\_wall}});}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00064\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{physics_8h_a068db7d6d107017e7eabff6411ee0080}{get\_cue\_angle}}(\mbox{\hyperlink{structball}{ball}}\ *c1,\ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\_pos}});}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00072\ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{physics_8h_aa168ff285a6e3c2794605fc098e72335}{get\_shot\_force\_dir}}(\mbox{\hyperlink{structball}{ball}}\ *c1,\ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\_pos}});}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,33 @@
+<map id="vec_len" name="vec_len">
+<area shape="rect" id="Node000001" title="Get length of a vector." alt="" coords="998,93,1065,119"/>
+<area shape="rect" id="Node000002" href="$pool_8c.html#a37f74dd6f4e3176bd587beb7445600f3" title="Get the padding of the cue stick from the cue ball based on the mouse position." alt="" coords="831,5,950,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="998,86,949,52,917,34,919,29,952,48,1001,81"/>
+<area shape="rect" id="Node000008" href="$physics_8c.html#aa168ff285a6e3c2794605fc098e72335" title="Get the force of the shot." alt="" coords="655,205,783,231"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1002,130,951,159,865,190,784,209,783,204,864,184,949,154,999,126"/>
+<area shape="rect" id="Node000010" href="$pool_8c.html#a3a29f4d6a35973014fff66761fd2a5e7" title="Update the physics of the game." alt="" coords="485,107,598,132"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="983,103,836,92,746,91,655,97,592,109,591,103,654,92,745,86,836,87,983,98"/>
+<area shape="rect" id="Node000011" href="$vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78" title="Get unit vector of a vector." alt="" coords="856,119,926,144"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="983,117,927,128,926,123,982,112"/>
+<area shape="rect" id="Node000003" href="$view_8c.html#a931260dc0e1c4f4a4a356d156a3787ac" title="Render the game view." alt="" coords="476,57,607,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="816,30,655,53,608,61,607,56,654,48,815,25"/>
+<area shape="rect" id="Node000004" href="$controller_8c.html#a09cb759cc70200d65c8a4507792653bb" title="Handle a keyboard event." alt="" coords="317,57,419,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="461,73,419,73,419,68,461,68"/>
+<area shape="rect" id="Node000007" href="$controller_8c.html#a8097e7972d060f9be32d53d10c8f8d18" title="Handle a timer tick event." alt="" coords="319,107,418,132"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="480,90,417,109,415,103,478,85"/>
+<area shape="rect" id="Node000005" href="$controller_8c.html#ae4e806086b2964b3a2071f3a90e3f41b" title="Initialize the game controller by starting to listen to I/O interrupts." alt="" coords="162,107,260,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,91,255,109,254,103,309,86"/>
+<area shape="rect" id="Node000006" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,107,114,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="146,122,114,122,114,117,146,117"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="303,122,260,122,260,117,303,117"/>
+<area shape="rect" id="Node000009" href="$controller_8c.html#a6d19b3835fc26c542cb98b9313e4aab2" title="Handle a mouse event." alt="" coords="308,156,428,182"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="639,210,428,180,429,175,640,204"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="309,153,254,136,255,130,311,148"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="470,122,418,122,418,117,470,117"/>
+<area shape="poly" id="edge14_Node000011_Node000008" title=" " alt="" coords="858,155,784,197,760,207,757,202,782,192,855,150"/>
+<area shape="rect" id="Node000012" href="$physics_8c.html#ad69ab1b3b4b45e326bba433a2ecfc437" title="Handle a collision between two circles." alt="" coords="662,107,776,132"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="840,131,776,126,776,121,840,125"/>
+<area shape="rect" id="Node000013" href="$physics_8c.html#af840f3f7204cf4b677c66893ee3db1b1" title="Update the state of a body over a time interval." alt="" coords="689,156,749,182"/>
+<area shape="poly" id="edge17_Node000011_Node000013" title=" " alt="" coords="841,145,750,165,749,160,840,140"/>
+<area shape="poly" id="edge16_Node000012_Node000010" title=" " alt="" coords="647,122,598,122,598,117,647,117"/>
+<area shape="poly" id="edge18_Node000013_Node000010" title=" " alt="" coords="673,159,590,135,591,130,675,154"/>
+</map>

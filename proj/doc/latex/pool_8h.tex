@@ -1,0 +1,370 @@
+\doxysection{pool.\+h File Reference}
+\hypertarget{pool_8h}{}\label{pool_8h}\index{pool.h@{pool.h}}
+{\ttfamily \#include "{}physics.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for pool.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{pool_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{pool_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structpool__game}{pool\+\_\+game}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2}{game\+\_\+state}} \{ \newline
+\mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ac22743f1fc74de09544ecc9bab74a17b}{MAIN\+\_\+\+MENU}}
+, \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aefe3197620576e99bfbdbefa0e732d61}{ABOUT\+\_\+\+MENU}}
+, \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aed7137810edb4d93b901af7a7ffb4d79}{AWAITING\+\_\+\+PHYSICS}}
+, \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ad847ab07d58a4bf1b9287ed406395eb6}{WAITING\+\_\+\+FOR\+\_\+\+HIT}}
+, \newline
+\mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a2307688148eacc7ed8cfcb4b11db0120}{PREPARING\+\_\+\+HIT}}
+, \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a30a11daaedd4bf68b98f661f27e2d474}{POSITIONING\+\_\+\+CUE}}
+, \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a871723195985a4ae22d7e10d99bf8a00}{GAME\+\_\+\+OVER}}
+ \}
+\item 
+enum \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\+\_\+event}} \{ \newline
+\mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a7f5bc526f12c99cbfe56c499bd528797}{PLAYER\+\_\+\+HIT\+\_\+\+BALL}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a8078753c83dc9af11a33129a815f6039}{BALL\+\_\+\+POCKETED}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aac75dd20b8dc639ea38d5710540bd430}{BALL8\+\_\+\+POCKETED}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aff04b480b7974ff34ddd7e9bbef33adf}{CUEBALL\+\_\+\+POCKETED}}
+, \newline
+\mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a83166b2b412f84f89bc43c084165aae7}{OPPONENT\+\_\+\+BALL\+\_\+\+HIT}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a15b1eede631c51ad46b73332302885ec}{FAILED\+\_\+\+TO\+\_\+\+HIT\+\_\+\+BALL}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24ad5c33e7ed78083d8ae772b4a81f9827d}{FAILED\+\_\+\+TO\+\_\+\+HIT\+\_\+\+RAIL}}
+, \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a81e5975b62c86b2c8a65df7bb88963bb}{TOO\+\_\+\+LONG\+\_\+\+TO\+\_\+\+HIT}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{pool_8h_a1f7befd589495bfe83b494ec93366a2f}{start\+\_\+game}} (bool myturn)
+\begin{DoxyCompactList}\small\item\em Start a new 8 ball pool game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pool_8h_ab146259d751a671adbde02958697da71}{handle\+\_\+event}} (\mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\+\_\+event}} e)
+\begin{DoxyCompactList}\small\item\em Handle an event amidst a pool game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pool_8h_a776a934a3860a9d6e1091971fbea68a3}{setup\+\_\+balls}} ()
+\begin{DoxyCompactList}\small\item\em Set up the balls for a new game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pool_8h_aa783ac3eeee43ae86a8ce19993100d61}{setup\+\_\+pockets}} ()
+\begin{DoxyCompactList}\small\item\em Set up the pockets for a new game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7}{update\+\_\+physics}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\+\_\+pos}})
+\begin{DoxyCompactList}\small\item\em Update the physics of the game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pool_8h_a3a0d2bcee34068413d9efd11c756509d}{handle\+\_\+pocketing}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c, \mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}pocket)
+\begin{DoxyCompactList}\small\item\em Handle a ball being pocketed. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{pool_8h_a37f74dd6f4e3176bd587beb7445600f3}{get\+\_\+cue\+\_\+padding}} (\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} cue\+\_\+pos, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\+\_\+pos}})
+\begin{DoxyCompactList}\small\item\em Get the padding of the cue stick from the cue ball based on the mouse position. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{pool_8h_a962600472fb05c4f8f5feac51654d615}{is\+\_\+pocket\+\_\+empty}} ()
+\item 
+bool \mbox{\hyperlink{pool_8h_af696bf2ee1f442301f07f6cc3a4d808c}{is\+\_\+pocket\+\_\+full}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} \mbox{\hyperlink{pool_8h_a2f5677916fe88e4b6eba7520292827c6}{game}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}\index{pool.h@{pool.h}!game\_event@{game\_event}}
+\index{game\_event@{game\_event}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{game\_event}{game\_event}}
+{\footnotesize\ttfamily \label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+enum \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\+\_\+event}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PLAYER\_HIT\_BALL@{PLAYER\_HIT\_BALL}!pool.h@{pool.h}}\index{pool.h@{pool.h}!PLAYER\_HIT\_BALL@{PLAYER\_HIT\_BALL}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a7f5bc526f12c99cbfe56c499bd528797}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+PLAYER\+\_\+\+HIT\+\_\+\+BALL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BALL\_POCKETED@{BALL\_POCKETED}!pool.h@{pool.h}}\index{pool.h@{pool.h}!BALL\_POCKETED@{BALL\_POCKETED}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a8078753c83dc9af11a33129a815f6039}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+BALL\+\_\+\+POCKETED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BALL8\_POCKETED@{BALL8\_POCKETED}!pool.h@{pool.h}}\index{pool.h@{pool.h}!BALL8\_POCKETED@{BALL8\_POCKETED}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aac75dd20b8dc639ea38d5710540bd430}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+BALL8\+\_\+\+POCKETED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CUEBALL\_POCKETED@{CUEBALL\_POCKETED}!pool.h@{pool.h}}\index{pool.h@{pool.h}!CUEBALL\_POCKETED@{CUEBALL\_POCKETED}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aff04b480b7974ff34ddd7e9bbef33adf}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+CUEBALL\+\_\+\+POCKETED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OPPONENT\_BALL\_HIT@{OPPONENT\_BALL\_HIT}!pool.h@{pool.h}}\index{pool.h@{pool.h}!OPPONENT\_BALL\_HIT@{OPPONENT\_BALL\_HIT}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a83166b2b412f84f89bc43c084165aae7}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+OPPONENT\+\_\+\+BALL\+\_\+\+HIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FAILED\_TO\_HIT\_BALL@{FAILED\_TO\_HIT\_BALL}!pool.h@{pool.h}}\index{pool.h@{pool.h}!FAILED\_TO\_HIT\_BALL@{FAILED\_TO\_HIT\_BALL}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a15b1eede631c51ad46b73332302885ec}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+FAILED\+\_\+\+TO\+\_\+\+HIT\+\_\+\+BALL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FAILED\_TO\_HIT\_RAIL@{FAILED\_TO\_HIT\_RAIL}!pool.h@{pool.h}}\index{pool.h@{pool.h}!FAILED\_TO\_HIT\_RAIL@{FAILED\_TO\_HIT\_RAIL}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24ad5c33e7ed78083d8ae772b4a81f9827d}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+FAILED\+\_\+\+TO\+\_\+\+HIT\+\_\+\+RAIL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TOO\_LONG\_TO\_HIT@{TOO\_LONG\_TO\_HIT}!pool.h@{pool.h}}\index{pool.h@{pool.h}!TOO\_LONG\_TO\_HIT@{TOO\_LONG\_TO\_HIT}}}\Hypertarget{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a81e5975b62c86b2c8a65df7bb88963bb}\label{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24} 
+TOO\+\_\+\+LONG\+\_\+\+TO\+\_\+\+HIT&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2}\index{pool.h@{pool.h}!game\_state@{game\_state}}
+\index{game\_state@{game\_state}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{game\_state}{game\_state}}
+{\footnotesize\ttfamily \label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+enum \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2}{game\+\_\+state}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAIN\_MENU@{MAIN\_MENU}!pool.h@{pool.h}}\index{pool.h@{pool.h}!MAIN\_MENU@{MAIN\_MENU}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ac22743f1fc74de09544ecc9bab74a17b}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+MAIN\+\_\+\+MENU&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ABOUT\_MENU@{ABOUT\_MENU}!pool.h@{pool.h}}\index{pool.h@{pool.h}!ABOUT\_MENU@{ABOUT\_MENU}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aefe3197620576e99bfbdbefa0e732d61}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+ABOUT\+\_\+\+MENU&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AWAITING\_PHYSICS@{AWAITING\_PHYSICS}!pool.h@{pool.h}}\index{pool.h@{pool.h}!AWAITING\_PHYSICS@{AWAITING\_PHYSICS}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aed7137810edb4d93b901af7a7ffb4d79}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+AWAITING\+\_\+\+PHYSICS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WAITING\_FOR\_HIT@{WAITING\_FOR\_HIT}!pool.h@{pool.h}}\index{pool.h@{pool.h}!WAITING\_FOR\_HIT@{WAITING\_FOR\_HIT}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ad847ab07d58a4bf1b9287ed406395eb6}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+WAITING\+\_\+\+FOR\+\_\+\+HIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PREPARING\_HIT@{PREPARING\_HIT}!pool.h@{pool.h}}\index{pool.h@{pool.h}!PREPARING\_HIT@{PREPARING\_HIT}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a2307688148eacc7ed8cfcb4b11db0120}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+PREPARING\+\_\+\+HIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{POSITIONING\_CUE@{POSITIONING\_CUE}!pool.h@{pool.h}}\index{pool.h@{pool.h}!POSITIONING\_CUE@{POSITIONING\_CUE}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a30a11daaedd4bf68b98f661f27e2d474}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+POSITIONING\+\_\+\+CUE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_OVER@{GAME\_OVER}!pool.h@{pool.h}}\index{pool.h@{pool.h}!GAME\_OVER@{GAME\_OVER}}}\Hypertarget{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a871723195985a4ae22d7e10d99bf8a00}\label{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2} 
+GAME\+\_\+\+OVER&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{pool_8h_a37f74dd6f4e3176bd587beb7445600f3}\index{pool.h@{pool.h}!get\_cue\_padding@{get\_cue\_padding}}
+\index{get\_cue\_padding@{get\_cue\_padding}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{get\_cue\_padding()}{get\_cue\_padding()}}
+{\footnotesize\ttfamily \label{pool_8h_a37f74dd6f4e3176bd587beb7445600f3} 
+float get\+\_\+cue\+\_\+padding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{cue\+\_\+pos}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{mouse\+\_\+pos}{}\end{DoxyParamCaption})}
+
+
+
+Get the padding of the cue stick from the cue ball based on the mouse position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cue\+\_\+pos} & position of the cue ball \\
+\hline
+{\em mouse\+\_\+pos} & position of the mouse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the padding of the cue stick 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{pool_8h_a37f74dd6f4e3176bd587beb7445600f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a37f74dd6f4e3176bd587beb7445600f3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_ab146259d751a671adbde02958697da71}\index{pool.h@{pool.h}!handle\_event@{handle\_event}}
+\index{handle\_event@{handle\_event}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{handle\_event()}{handle\_event()}}
+{\footnotesize\ttfamily \label{pool_8h_ab146259d751a671adbde02958697da71} 
+void handle\+\_\+event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\+\_\+event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Handle an event amidst a pool game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & event to be handled \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{pool_8h_ab146259d751a671adbde02958697da71_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_ab146259d751a671adbde02958697da71_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_a3a0d2bcee34068413d9efd11c756509d}\index{pool.h@{pool.h}!handle\_pocketing@{handle\_pocketing}}
+\index{handle\_pocketing@{handle\_pocketing}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{handle\_pocketing()}{handle\_pocketing()}}
+{\footnotesize\ttfamily \label{pool_8h_a3a0d2bcee34068413d9efd11c756509d} 
+void handle\+\_\+pocketing (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c}{, }\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{pocket}{}\end{DoxyParamCaption})}
+
+
+
+Handle a ball being pocketed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & ball to be pocketed \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a3a0d2bcee34068413d9efd11c756509d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_a962600472fb05c4f8f5feac51654d615}\index{pool.h@{pool.h}!is\_pocket\_empty@{is\_pocket\_empty}}
+\index{is\_pocket\_empty@{is\_pocket\_empty}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{is\_pocket\_empty()}{is\_pocket\_empty()}}
+{\footnotesize\ttfamily \label{pool_8h_a962600472fb05c4f8f5feac51654d615} 
+bool is\+\_\+pocket\+\_\+empty (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a962600472fb05c4f8f5feac51654d615_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_af696bf2ee1f442301f07f6cc3a4d808c}\index{pool.h@{pool.h}!is\_pocket\_full@{is\_pocket\_full}}
+\index{is\_pocket\_full@{is\_pocket\_full}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{is\_pocket\_full()}{is\_pocket\_full()}}
+{\footnotesize\ttfamily \label{pool_8h_af696bf2ee1f442301f07f6cc3a4d808c} 
+bool is\+\_\+pocket\+\_\+full (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{pool_8h_a776a934a3860a9d6e1091971fbea68a3}\index{pool.h@{pool.h}!setup\_balls@{setup\_balls}}
+\index{setup\_balls@{setup\_balls}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{setup\_balls()}{setup\_balls()}}
+{\footnotesize\ttfamily \label{pool_8h_a776a934a3860a9d6e1091971fbea68a3} 
+void setup\+\_\+balls (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Set up the balls for a new game. 
+
+\begin{DoxyRemark}{Remarks}
+The white ball is the first one 
+
+Balls are positioned in a triangle 
+\end{DoxyRemark}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{pool_8h_a776a934a3860a9d6e1091971fbea68a3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_aa783ac3eeee43ae86a8ce19993100d61}\index{pool.h@{pool.h}!setup\_pockets@{setup\_pockets}}
+\index{setup\_pockets@{setup\_pockets}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{setup\_pockets()}{setup\_pockets()}}
+{\footnotesize\ttfamily \label{pool_8h_aa783ac3eeee43ae86a8ce19993100d61} 
+void setup\+\_\+pockets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Set up the pockets for a new game. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{pool_8h_aa783ac3eeee43ae86a8ce19993100d61_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_a1f7befd589495bfe83b494ec93366a2f}\index{pool.h@{pool.h}!start\_game@{start\_game}}
+\index{start\_game@{start\_game}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{start\_game()}{start\_game()}}
+{\footnotesize\ttfamily \label{pool_8h_a1f7befd589495bfe83b494ec93366a2f} 
+int start\+\_\+game (\begin{DoxyParamCaption}\item[{bool}]{myturn}{}\end{DoxyParamCaption})}
+
+
+
+Start a new 8 ball pool game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em myturn} & whether player is p0 or p1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zero on success, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a1f7befd589495bfe83b494ec93366a2f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{pool_8h_a1f7befd589495bfe83b494ec93366a2f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7}\index{pool.h@{pool.h}!update\_physics@{update\_physics}}
+\index{update\_physics@{update\_physics}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{update\_physics()}{update\_physics()}}
+{\footnotesize\ttfamily \label{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7} 
+void update\+\_\+physics (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \texorpdfstring{$\ast$}{*}}]{mouse\+\_\+pos}{}\end{DoxyParamCaption})}
+
+
+
+Update the physics of the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mouse\+\_\+pos} & position of the mouse \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{pool_8h_a2f5677916fe88e4b6eba7520292827c6}\index{pool.h@{pool.h}!game@{game}}
+\index{game@{game}!pool.h@{pool.h}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily \label{pool_8h_a2f5677916fe88e4b6eba7520292827c6} 
+\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} game}
+

@@ -1,0 +1,11 @@
+<map id="start_game" name="start_game">
+<area shape="rect" id="Node000001" title="Start a new 8 ball pool game." alt="" coords="5,31,92,56"/>
+<area shape="rect" id="Node000002" href="$rtc_8c.html#a146c10f18011024bd865a8ddc7a496ff" title="Update current date &amp; time." alt="" coords="140,31,257,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,41,124,41,124,46,92,46"/>
+<area shape="rect" id="Node000003" href="$rtc_8c.html#a405b6c273d8f15732977cc3234a1a4c0" title="Read contents of an RTC register." alt="" coords="308,5,376,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,30,292,24,293,29,258,36"/>
+<area shape="rect" id="Node000005" href="$rtc_8c.html#ab710920d4b62451b72339fcfa26bd6f4" title=" " alt="" coords="305,55,379,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="258,51,290,56,289,61,257,56"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a2b56f50ba159e9d5115ed1a75eff15d9" title=" " alt="" coords="427,5,518,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="376,16,412,16,412,21,376,21"/>
+</map>

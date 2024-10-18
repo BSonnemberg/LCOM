@@ -1,0 +1,166 @@
+\doxysection{view/view.h File Reference}
+\hypertarget{view_8h}{}\label{view_8h}\index{view/view.h@{view/view.h}}
+{\ttfamily \#include "{}pool.\+h"{}}\newline
+Include dependency graph for view.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{view_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{view_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{view_8h_a27266b69ad7d8ea120c7013b36026095}{init\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the view by loading all game resources. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8h_a7e37b23b2b55e32866bf327bc2ce908f}{stop\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Stop (unload) the view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8h_ac53633ad15b64ad8aa3e31be142600cb}{render\+\_\+menu\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Render the menu view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8h_a931260dc0e1c4f4a4a356d156a3787ac}{render\+\_\+game\+\_\+view}} (\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{pool_8h_a2f5677916fe88e4b6eba7520292827c6}{game}}, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} mouse)
+\begin{DoxyCompactList}\small\item\em Render the game view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8h_aa3b4a2a627b4e33b566bf38dc0419ffc}{render\+\_\+about\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Render the about menu view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{view_8h_a27266b69ad7d8ea120c7013b36026095}\index{view.h@{view.h}!init\_view@{init\_view}}
+\index{init\_view@{init\_view}!view.h@{view.h}}
+\doxysubsubsection{\texorpdfstring{init\_view()}{init\_view()}}
+{\footnotesize\ttfamily \label{view_8h_a27266b69ad7d8ea120c7013b36026095} 
+int init\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialize the view by loading all game resources. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of an xpm 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_a27266b69ad7d8ea120c7013b36026095_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{view_8h_a27266b69ad7d8ea120c7013b36026095_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8h_aa3b4a2a627b4e33b566bf38dc0419ffc}\index{view.h@{view.h}!render\_about\_view@{render\_about\_view}}
+\index{render\_about\_view@{render\_about\_view}!view.h@{view.h}}
+\doxysubsubsection{\texorpdfstring{render\_about\_view()}{render\_about\_view()}}
+{\footnotesize\ttfamily \label{view_8h_aa3b4a2a627b4e33b566bf38dc0419ffc} 
+int render\+\_\+about\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Render the about menu view. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_aa3b4a2a627b4e33b566bf38dc0419ffc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_aa3b4a2a627b4e33b566bf38dc0419ffc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8h_a931260dc0e1c4f4a4a356d156a3787ac}\index{view.h@{view.h}!render\_game\_view@{render\_game\_view}}
+\index{render\_game\_view@{render\_game\_view}!view.h@{view.h}}
+\doxysubsubsection{\texorpdfstring{render\_game\_view()}{render\_game\_view()}}
+{\footnotesize\ttfamily \label{view_8h_a931260dc0e1c4f4a4a356d156a3787ac} 
+int render\+\_\+game\+\_\+view (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} \texorpdfstring{$\ast$}{*}}]{game}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{mouse}{}\end{DoxyParamCaption})}
+
+
+
+Render the game view. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & game to load view from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_a931260dc0e1c4f4a4a356d156a3787ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_a931260dc0e1c4f4a4a356d156a3787ac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8h_ac53633ad15b64ad8aa3e31be142600cb}\index{view.h@{view.h}!render\_menu\_view@{render\_menu\_view}}
+\index{render\_menu\_view@{render\_menu\_view}!view.h@{view.h}}
+\doxysubsubsection{\texorpdfstring{render\_menu\_view()}{render\_menu\_view()}}
+{\footnotesize\ttfamily \label{view_8h_ac53633ad15b64ad8aa3e31be142600cb} 
+int render\+\_\+menu\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Render the menu view. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_ac53633ad15b64ad8aa3e31be142600cb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8h_a7e37b23b2b55e32866bf327bc2ce908f}\index{view.h@{view.h}!stop\_view@{stop\_view}}
+\index{stop\_view@{stop\_view}!view.h@{view.h}}
+\doxysubsubsection{\texorpdfstring{stop\_view()}{stop\_view()}}
+{\footnotesize\ttfamily \label{view_8h_a7e37b23b2b55e32866bf327bc2ce908f} 
+int stop\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Stop (unload) the view. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8h_a7e37b23b2b55e32866bf327bc2ce908f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{view_8h_a7e37b23b2b55e32866bf327bc2ce908f_icgraph}
+\end{center}
+\end{figure}

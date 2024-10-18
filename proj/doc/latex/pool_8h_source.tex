@@ -1,0 +1,71 @@
+\doxysection{pool.\+h}
+\hypertarget{pool_8h_source}{}\label{pool_8h_source}\mbox{\hyperlink{pool_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ POOL\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ POOL\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{physics_8h}{physics.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \{}
+\DoxyCodeLine{00008\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ac22743f1fc74de09544ecc9bab74a17b}{MAIN\_MENU}},}
+\DoxyCodeLine{00009\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aefe3197620576e99bfbdbefa0e732d61}{ABOUT\_MENU}},}
+\DoxyCodeLine{00010\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2aed7137810edb4d93b901af7a7ffb4d79}{AWAITING\_PHYSICS}},}
+\DoxyCodeLine{00011\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2ad847ab07d58a4bf1b9287ed406395eb6}{WAITING\_FOR\_HIT}},}
+\DoxyCodeLine{00012\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a2307688148eacc7ed8cfcb4b11db0120}{PREPARING\_HIT}},}
+\DoxyCodeLine{00013\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a30a11daaedd4bf68b98f661f27e2d474}{POSITIONING\_CUE}},}
+\DoxyCodeLine{00014\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2a871723195985a4ae22d7e10d99bf8a00}{GAME\_OVER}}}
+\DoxyCodeLine{00015\ \}\ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2}{game\_state}};}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00018\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structpool__game_a5251e092b9ce866eb0c1c97246acda80}{multiplayer}};}
+\DoxyCodeLine{00019\ \ \ \mbox{\hyperlink{pool_8h_ad0ed1832dd134806ad335cdcc1a59ad2}{game\_state}}\ \mbox{\hyperlink{structpool__game_a8e6f3ac1a958f2efbd431c1c5a334e5b}{state}};}
+\DoxyCodeLine{00020\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structpool__game_aa7add718617a09df7b087c721004cddc}{myturn}};\ }
+\DoxyCodeLine{00021\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structpool__game_a44af12b90c4b46b2adbba39aa3437f1b}{turn}};}
+\DoxyCodeLine{00022\ \ \ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{structpool__game_ac6e4cb2d61bb92269e8f99a5695f06a1}{mouse\_pos}};}
+\DoxyCodeLine{00023\ \ \ \mbox{\hyperlink{structball}{ball}}*\ \mbox{\hyperlink{structpool__game_ad2c5600bd2f744768a989a6c75f2015d}{balls}};}
+\DoxyCodeLine{00024\ \ \ \mbox{\hyperlink{structball}{ball}}*\ \mbox{\hyperlink{structpool__game_ae4d0340a0302997336c18b5ebc8ef7d7}{pockets}};}
+\DoxyCodeLine{00025\ \ \ \textcolor{keywordtype}{bool}*\ \mbox{\hyperlink{structpool__game_a12d0d2ad515dc6e61ca101dd4785bc1c}{in\_pocket}};}
+\DoxyCodeLine{00026\ \ \ uint16\_t\ \mbox{\hyperlink{structpool__game_a8564fbbf43a5195efa4dac2a7d498dfb}{current\_turn\_time}};}
+\DoxyCodeLine{00027\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structpool__game_ae0af6a3a805ddcea0404ae9157d13d8a}{gameover\_delay}};}
+\DoxyCodeLine{00028\ \}\ \mbox{\hyperlink{structpool__game}{pool\_game}};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \mbox{\hyperlink{structpool__game}{pool\_game}}\ \mbox{\hyperlink{pool_8h_a2f5677916fe88e4b6eba7520292827c6}{game}};}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \{}
+\DoxyCodeLine{00033\ \ \ \textcolor{comment}{//\ player\ hit\ a\ pool\ ball}}
+\DoxyCodeLine{00034\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a7f5bc526f12c99cbfe56c499bd528797}{PLAYER\_HIT\_BALL}},}
+\DoxyCodeLine{00035\ \ \ \textcolor{comment}{//\ ball\ was\ pocketed}}
+\DoxyCodeLine{00036\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a8078753c83dc9af11a33129a815f6039}{BALL\_POCKETED}},}
+\DoxyCodeLine{00037\ \ \ \textcolor{comment}{//\ black\ ball\ was\ pocketed}}
+\DoxyCodeLine{00038\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aac75dd20b8dc639ea38d5710540bd430}{BALL8\_POCKETED}},}
+\DoxyCodeLine{00039\ \ \ \textcolor{comment}{//\ white\ ball\ was\ pocketed}}
+\DoxyCodeLine{00040\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24aff04b480b7974ff34ddd7e9bbef33adf}{CUEBALL\_POCKETED}},}
+\DoxyCodeLine{00041\ \ \ \textcolor{comment}{//\ opponent\ ball\ hit\ first}}
+\DoxyCodeLine{00042\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a83166b2b412f84f89bc43c084165aae7}{OPPONENT\_BALL\_HIT}},}
+\DoxyCodeLine{00043\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a15b1eede631c51ad46b73332302885ec}{FAILED\_TO\_HIT\_BALL}},}
+\DoxyCodeLine{00044\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24ad5c33e7ed78083d8ae772b4a81f9827d}{FAILED\_TO\_HIT\_RAIL}},}
+\DoxyCodeLine{00045\ \ \ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24a81e5975b62c86b2c8a65df7bb88963bb}{TOO\_LONG\_TO\_HIT}}}
+\DoxyCodeLine{00046\ \}\ \mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\_event}};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{pool_8h_a1f7befd589495bfe83b494ec93366a2f}{start\_game}}(\textcolor{keywordtype}{bool}\ myturn);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00059\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{pool_8h_ab146259d751a671adbde02958697da71}{handle\_event}}(\mbox{\hyperlink{pool_8h_ab11becc4e0f938ccdc36cb5e7b7aae24}{game\_event}}\ e);}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00066\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{pool_8h_a776a934a3860a9d6e1091971fbea68a3}{setup\_balls}}();}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00071\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{pool_8h_aa783ac3eeee43ae86a8ce19993100d61}{setup\_pockets}}();}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00077\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{pool_8h_a3a29f4d6a35973014fff66761fd2a5e7}{update\_physics}}(\mbox{\hyperlink{structvec}{vec\_2d}}*\ \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\_pos}});}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00083\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{pool_8h_a3a0d2bcee34068413d9efd11c756509d}{handle\_pocketing}}(\mbox{\hyperlink{structball}{ball}}\ *c,\ \mbox{\hyperlink{structball}{ball}}\ *pocket);}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00091\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{pool_8h_a37f74dd6f4e3176bd587beb7445600f3}{get\_cue\_padding}}(\mbox{\hyperlink{structvec}{vec\_2d}}\ cue\_pos,\ \mbox{\hyperlink{structvec}{vec\_2d}}\ \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\_pos}});}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{pool_8h_a962600472fb05c4f8f5feac51654d615}{is\_pocket\_empty}}();}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{pool_8h_af696bf2ee1f442301f07f6cc3a4d808c}{is\_pocket\_full}}();}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

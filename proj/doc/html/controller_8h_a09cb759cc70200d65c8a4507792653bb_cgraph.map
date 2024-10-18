@@ -1,0 +1,41 @@
+<map id="on_kbd_event" name="on_kbd_event">
+<area shape="rect" id="Node000001" title="Handle a keyboard event." alt="" coords="5,255,108,280"/>
+<area shape="rect" id="Node000002" href="$view_8c.html#aa3b4a2a627b4e33b566bf38dc0419ffc" title="Render the about menu view." alt="" coords="156,255,286,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,265,140,265,140,270,108,270"/>
+<area shape="rect" id="Node000010" href="$view_8c.html#a931260dc0e1c4f4a4a356d156a3787ac" title="Render the game view." alt="" coords="156,155,286,180"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="78,252,184,186,187,191,81,256"/>
+<area shape="rect" id="Node000017" href="$view_8h.html#ac53633ad15b64ad8aa3e31be142600cb" title="Render the menu view." alt="" coords="156,304,286,330"/>
+<area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="103,278,162,296,160,302,101,284"/>
+<area shape="rect" id="Node000003" href="$vg_8c.html#a4d53728322f948683b768482bf4906e8" title=" " alt="" coords="334,328,464,354"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="261,278,287,289,335,314,347,319,344,324,333,319,285,294,259,283"/>
+<area shape="rect" id="Node000006" href="$vg_8c.html#a0220209f7e0687c64c76d7477c1b661e" title="Draw a sprite to the screen." alt="" coords="345,180,454,206"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,252,333,214,346,209,348,214,335,219,252,257"/>
+<area shape="rect" id="Node000007" href="$vg_8c.html#a955ec43388f6cf17586319b637e0293b" title="Flip the video buffer, given a double buffer architecture." alt="" coords="350,229,449,255"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="286,256,333,249,334,254,287,261"/>
+<area shape="rect" id="Node000008" href="$vg_8c.html#a30605f9ea0eba14831f032301efb89b6" title="Get screen horizontal resolution." alt="" coords="353,279,445,304"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="287,274,338,281,338,286,286,279"/>
+<area shape="rect" id="Node000009" href="$vg_8c.html#a3c18fdcf2a7591bf211ee3f00f41a998" title="Get screen vertical resolution." alt="" coords="353,377,445,403"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="270,279,288,289,304,309,312,328,320,346,336,364,341,368,338,372,332,368,316,349,308,330,300,312,284,294,267,283"/>
+<area shape="rect" id="Node000004" href="$vg_8c.html#adb08b276272848bc7f3bccc0f5e770c8" title=" " alt="" coords="538,279,643,304"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="451,325,522,306,524,311,453,330"/>
+<area shape="rect" id="Node000005" href="$vg_8c.html#a6ce9849b80332b95ac5c02c62574d646" title="Set the color of a screen pixel." alt="" coords="717,204,811,230"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="621,276,717,234,719,239,623,281"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="454,194,702,210,701,215,454,199"/>
+<area shape="poly" id="edge18_Node000010_Node000006" title=" " alt="" coords="287,174,330,180,329,186,286,179"/>
+<area shape="poly" id="edge21_Node000010_Node000007" title=" " alt="" coords="252,178,335,216,348,221,346,226,333,221,249,183"/>
+<area shape="rect" id="Node000011" href="$physics_8c.html#a068db7d6d107017e7eabff6411ee0080" title="Get the angle of the cue stick." alt="" coords="347,29,452,55"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="232,152,274,110,302,86,333,64,340,60,343,64,335,68,305,90,277,114,236,156"/>
+<area shape="rect" id="Node000014" href="$pool_8c.html#a37f74dd6f4e3176bd587beb7445600f3" title="Get the padding of the cue stick from the cue ball based on the mouse position." alt="" coords="340,79,459,104"/>
+<area shape="poly" id="edge14_Node000010_Node000014" title=" " alt="" coords="252,152,352,108,354,113,254,157"/>
+<area shape="rect" id="Node000016" href="$vg_8c.html#aabf4eb98b365299fac5c2cb19dfe5c4d" title="Draw a rotated sprite to the screen." alt="" coords="512,153,669,179"/>
+<area shape="poly" id="edge19_Node000010_Node000016" title=" " alt="" coords="287,165,497,164,497,169,287,170"/>
+<area shape="rect" id="Node000012" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="555,5,626,31"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="452,33,540,22,540,27,452,38"/>
+<area shape="rect" id="Node000013" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="555,55,626,80"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="452,46,540,58,540,64,452,52"/>
+<area shape="poly" id="edge15_Node000014_Node000012" title=" " alt="" coords="438,76,463,65,511,40,540,29,541,34,513,45,465,70,440,81"/>
+<area shape="poly" id="edge17_Node000014_Node000013" title=" " alt="" coords="459,81,539,71,540,76,459,87"/>
+<area shape="rect" id="Node000015" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="557,104,624,130"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="460,97,542,108,541,113,459,102"/>
+<area shape="poly" id="edge20_Node000016_Node000005" title=" " alt="" coords="638,177,704,197,702,202,636,182"/>
+</map>

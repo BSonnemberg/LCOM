@@ -1,0 +1,9 @@
+<map id="update_datetime" name="update_datetime">
+<area shape="rect" id="Node000001" title="Update current date &amp; time." alt="" coords="340,31,457,56"/>
+<area shape="rect" id="Node000002" href="$view_8c.html#a4139d222baf921f2d59bf068f2f8dbb5" title=" " alt="" coords="162,5,292,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,35,292,30,293,25,325,30"/>
+<area shape="rect" id="Node000003" href="$pool_8c.html#a1f7befd589495bfe83b494ec93366a2f" title="Start a new 8 ball pool game." alt="" coords="184,55,270,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="325,56,271,64,270,59,324,51"/>
+<area shape="rect" id="Node000004" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title=" " alt="" coords="5,55,114,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="168,70,114,70,114,65,168,65"/>
+</map>

@@ -1,0 +1,22 @@
+\doxysection{queue.\+h}
+\hypertarget{queue_8h_source}{}\label{queue_8h_source}\index{io/queue.h@{io/queue.h}}
+\mbox{\hyperlink{queue_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }node\ \{}
+\DoxyCodeLine{00004\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structstruct_a380d4ba539f80e41824f4f5528f484d0}{value}};}
+\DoxyCodeLine{00005\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structstruct_a8873bb9c50d6d9a66ac67e58482e5f95}{size}};}
+\DoxyCodeLine{00006\ \ \ \ \ \textcolor{keyword}{struct\ }node*\ \mbox{\hyperlink{structstruct_aab1c14fbb5ab4b6d4de0206ef95ad800}{next}};}
+\DoxyCodeLine{00007\ \}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }queue\ \{}
+\DoxyCodeLine{00010\ \ \ \ \ node*\ front;}
+\DoxyCodeLine{00011\ \ \ \ \ node*\ \mbox{\hyperlink{queue_8h_a9afc38e973b813f01ec627e4e15f8b68}{back}};}
+\DoxyCodeLine{00012\ \}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{queue_8h_afe2e6c8ef8951e37592f25d5dfb1602b}{enqueue}}(queue*\ q,\ \textcolor{keywordtype}{int}\ val);}
+\DoxyCodeLine{00015\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{queue_8h_a9feaa5a0df396a1cba0f8ad5680de97f}{dequeue}}(queue*\ q,\ \textcolor{keywordtype}{int}*\ val);}
+\DoxyCodeLine{00016\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{queue_8h_a48a23be857fea2db244557c73d5c77dd}{getSize}}(queue*\ q);}
+
+\end{DoxyCode}

@@ -1,0 +1,7 @@
+<map id="view/sprite_manager.h" name="view/sprite_manager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,229,31"/>
+<area shape="rect" id="Node000002" href="$sprite__manager_8c.html" title=" " alt="" coords="5,79,157,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,44,95,80,91,77,128,40"/>
+<area shape="rect" id="Node000003" href="$view_8c.html" title=" " alt="" coords="181,79,269,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,40,215,77,211,80,174,44"/>
+</map>

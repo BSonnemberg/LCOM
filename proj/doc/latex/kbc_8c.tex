@@ -1,0 +1,121 @@
+\doxysection{io/kbc.c File Reference}
+\hypertarget{kbc_8c}{}\label{kbc_8c}\index{io/kbc.c@{io/kbc.c}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include "{}kbc.\+h"{}}\newline
+Include dependency graph for kbc.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{kbc_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{kbc_8c_a2f901acc7ec2e88efa1f7eb391832e67}{kbc\+\_\+get\+\_\+status}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}st)
+\begin{DoxyCompactList}\small\item\em Get status/ configuration of the kbc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{kbc_8c_aae4c289b1c73874ea70c35ba09256e02}{kbc\+\_\+read\+\_\+outbuf}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}buf)
+\begin{DoxyCompactList}\small\item\em Read outbuf buffer of the kbc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{kbc_8c_a11626310a2d7eeda1eab4ff9695a92f0}{kbc\+\_\+write}} (uint8\+\_\+t port, uint8\+\_\+t \mbox{\hyperlink{mouse_8c_a96f44d20f1dbf1c8785a7bc99a46164c}{byte}})
+\begin{DoxyCompactList}\small\item\em Write byte to a kbc port. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{kbc_8c_a2f901acc7ec2e88efa1f7eb391832e67}\index{kbc.c@{kbc.c}!kbc\_get\_status@{kbc\_get\_status}}
+\index{kbc\_get\_status@{kbc\_get\_status}!kbc.c@{kbc.c}}
+\doxysubsubsection{\texorpdfstring{kbc\_get\_status()}{kbc\_get\_status()}}
+{\footnotesize\ttfamily \label{kbc_8c_a2f901acc7ec2e88efa1f7eb391832e67} 
+int kbc\+\_\+get\+\_\+status (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{st}{}\end{DoxyParamCaption})}
+
+
+
+Get status/ configuration of the kbc. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st} & placeholder for status \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successful, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{kbc_8c_a2f901acc7ec2e88efa1f7eb391832e67_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kbc_8c_a2f901acc7ec2e88efa1f7eb391832e67_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{kbc_8c_aae4c289b1c73874ea70c35ba09256e02}\index{kbc.c@{kbc.c}!kbc\_read\_outbuf@{kbc\_read\_outbuf}}
+\index{kbc\_read\_outbuf@{kbc\_read\_outbuf}!kbc.c@{kbc.c}}
+\doxysubsubsection{\texorpdfstring{kbc\_read\_outbuf()}{kbc\_read\_outbuf()}}
+{\footnotesize\ttfamily \label{kbc_8c_aae4c289b1c73874ea70c35ba09256e02} 
+int kbc\+\_\+read\+\_\+outbuf (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{buf}{}\end{DoxyParamCaption})}
+
+
+
+Read outbuf buffer of the kbc. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buf} & placeholder for buffer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successful, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kbc_8c_aae4c289b1c73874ea70c35ba09256e02_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kbc_8c_aae4c289b1c73874ea70c35ba09256e02_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{kbc_8c_a11626310a2d7eeda1eab4ff9695a92f0}\index{kbc.c@{kbc.c}!kbc\_write@{kbc\_write}}
+\index{kbc\_write@{kbc\_write}!kbc.c@{kbc.c}}
+\doxysubsubsection{\texorpdfstring{kbc\_write()}{kbc\_write()}}
+{\footnotesize\ttfamily \label{kbc_8c_a11626310a2d7eeda1eab4ff9695a92f0} 
+int kbc\+\_\+write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port}{, }\item[{uint8\+\_\+t}]{byte}{}\end{DoxyParamCaption})}
+
+
+
+Write byte to a kbc port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & port to write to \\
+\hline
+{\em byte} & byte to be written \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successful, non-\/0 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kbc_8c_a11626310a2d7eeda1eab4ff9695a92f0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kbc_8c_a11626310a2d7eeda1eab4ff9695a92f0_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,10 @@
+<map id="kbc_ih" name="kbc_ih">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,65,56"/>
+<area shape="rect" id="Node000002" href="$kbc_8c.html#aae4c289b1c73874ea70c35ba09256e02" title="Read outbuf buffer of the kbc." alt="" coords="113,31,230,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,41,97,41,97,46,65,46"/>
+<area shape="rect" id="Node000003" href="$kbc_8c.html#a2f901acc7ec2e88efa1f7eb391832e67" title="Get status/ configuration of the kbc." alt="" coords="278,5,388,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,32,262,27,263,32,231,37"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a2b56f50ba159e9d5115ed1a75eff15d9" title=" " alt="" coords="436,31,527,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="231,41,421,41,421,46,231,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="389,25,421,31,420,36,388,30"/>
+</map>

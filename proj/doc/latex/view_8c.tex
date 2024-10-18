@@ -1,0 +1,194 @@
+\doxysection{view/view.c File Reference}
+\hypertarget{view_8c}{}\label{view_8c}\index{view/view.c@{view/view.c}}
+{\ttfamily \#include "{}view.\+h"{}}\newline
+{\ttfamily \#include "{}sprite\+\_\+manager.\+h"{}}\newline
+{\ttfamily \#include "{}../io/video/vg.\+h"{}}\newline
+{\ttfamily \#include "{}../io/rtc/rtc.\+h"{}}\newline
+{\ttfamily \#include "{}../io/rtc/rtc.\+c"{}}\newline
+Include dependency graph for view.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{view_8c_a27266b69ad7d8ea120c7013b36026095}{init\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the view by loading all game resources. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8c_a7e37b23b2b55e32866bf327bc2ce908f}{stop\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Stop (unload) the view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8c_a931260dc0e1c4f4a4a356d156a3787ac}{render\+\_\+game\+\_\+view}} (\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{pool_8h_a2f5677916fe88e4b6eba7520292827c6}{game}}, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} mouse)
+\begin{DoxyCompactList}\small\item\em Render the game view. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{view_8c_a4139d222baf921f2d59bf068f2f8dbb5}{render\+\_\+menu\+\_\+view}} (int \mbox{\hyperlink{controller_8c_ad637c04364bbe95bdbf12a707adb07c0}{current\+\_\+menu\+\_\+item}})
+\item 
+int \mbox{\hyperlink{view_8c_aa3b4a2a627b4e33b566bf38dc0419ffc}{render\+\_\+about\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Render the about menu view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static uint8\+\_\+t \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{view_8c_ad03c82f54bafbbf29063dd5f1dfda781}{pool\+\_\+buffer}}
+\item 
+static uint8\+\_\+t \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{view_8c_a3bd8555a508eaca24c9ab848559c6344}{menu\+\_\+buffer}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{view_8c_aa092047b01c0247e8860b3c5b81949d0}{refresh\+\_\+time}} = 0
+\item 
+\mbox{\hyperlink{structdate__t}{date\+\_\+t}} \mbox{\hyperlink{view_8c_a489889b08b4c620a178b6a3b58254694}{datetime}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{view_8c_a27266b69ad7d8ea120c7013b36026095}\index{view.c@{view.c}!init\_view@{init\_view}}
+\index{init\_view@{init\_view}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{init\_view()}{init\_view()}}
+{\footnotesize\ttfamily \label{view_8c_a27266b69ad7d8ea120c7013b36026095} 
+int init\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialize the view by loading all game resources. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of an xpm 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_a27266b69ad7d8ea120c7013b36026095_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{view_8c_a27266b69ad7d8ea120c7013b36026095_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8c_aa3b4a2a627b4e33b566bf38dc0419ffc}\index{view.c@{view.c}!render\_about\_view@{render\_about\_view}}
+\index{render\_about\_view@{render\_about\_view}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{render\_about\_view()}{render\_about\_view()}}
+{\footnotesize\ttfamily \label{view_8c_aa3b4a2a627b4e33b566bf38dc0419ffc} 
+int render\+\_\+about\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Render the about menu view. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_aa3b4a2a627b4e33b566bf38dc0419ffc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_aa3b4a2a627b4e33b566bf38dc0419ffc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8c_a931260dc0e1c4f4a4a356d156a3787ac}\index{view.c@{view.c}!render\_game\_view@{render\_game\_view}}
+\index{render\_game\_view@{render\_game\_view}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{render\_game\_view()}{render\_game\_view()}}
+{\footnotesize\ttfamily \label{view_8c_a931260dc0e1c4f4a4a356d156a3787ac} 
+int render\+\_\+game\+\_\+view (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpool__game}{pool\+\_\+game}} \texorpdfstring{$\ast$}{*}}]{game}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{mouse}{}\end{DoxyParamCaption})}
+
+
+
+Render the game view. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & game to load view from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_a931260dc0e1c4f4a4a356d156a3787ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_a931260dc0e1c4f4a4a356d156a3787ac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8c_a4139d222baf921f2d59bf068f2f8dbb5}\index{view.c@{view.c}!render\_menu\_view@{render\_menu\_view}}
+\index{render\_menu\_view@{render\_menu\_view}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{render\_menu\_view()}{render\_menu\_view()}}
+{\footnotesize\ttfamily \label{view_8c_a4139d222baf921f2d59bf068f2f8dbb5} 
+int render\+\_\+menu\+\_\+view (\begin{DoxyParamCaption}\item[{int}]{current\+\_\+menu\+\_\+item}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_a4139d222baf921f2d59bf068f2f8dbb5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{view_8c_a7e37b23b2b55e32866bf327bc2ce908f}\index{view.c@{view.c}!stop\_view@{stop\_view}}
+\index{stop\_view@{stop\_view}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{stop\_view()}{stop\_view()}}
+{\footnotesize\ttfamily \label{view_8c_a7e37b23b2b55e32866bf327bc2ce908f} 
+int stop\+\_\+view (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Stop (unload) the view. 
+
+\begin{DoxyReturn}{Returns}
+non-\/0 in case of a fail 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{view_8c_a7e37b23b2b55e32866bf327bc2ce908f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{view_8c_a7e37b23b2b55e32866bf327bc2ce908f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{view_8c_a489889b08b4c620a178b6a3b58254694}\index{view.c@{view.c}!datetime@{datetime}}
+\index{datetime@{datetime}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{datetime}{datetime}}
+{\footnotesize\ttfamily \label{view_8c_a489889b08b4c620a178b6a3b58254694} 
+\mbox{\hyperlink{structdate__t}{date\+\_\+t}} datetime\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{view_8c_a3bd8555a508eaca24c9ab848559c6344}\index{view.c@{view.c}!menu\_buffer@{menu\_buffer}}
+\index{menu\_buffer@{menu\_buffer}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{menu\_buffer}{menu\_buffer}}
+{\footnotesize\ttfamily \label{view_8c_a3bd8555a508eaca24c9ab848559c6344} 
+uint8\+\_\+t\texorpdfstring{$\ast$}{*} menu\+\_\+buffer\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{view_8c_ad03c82f54bafbbf29063dd5f1dfda781}\index{view.c@{view.c}!pool\_buffer@{pool\_buffer}}
+\index{pool\_buffer@{pool\_buffer}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{pool\_buffer}{pool\_buffer}}
+{\footnotesize\ttfamily \label{view_8c_ad03c82f54bafbbf29063dd5f1dfda781} 
+uint8\+\_\+t\texorpdfstring{$\ast$}{*} pool\+\_\+buffer\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{view_8c_aa092047b01c0247e8860b3c5b81949d0}\index{view.c@{view.c}!refresh\_time@{refresh\_time}}
+\index{refresh\_time@{refresh\_time}!view.c@{view.c}}
+\doxysubsubsection{\texorpdfstring{refresh\_time}{refresh\_time}}
+{\footnotesize\ttfamily \label{view_8c_aa092047b01c0247e8860b3c5b81949d0} 
+uint16\+\_\+t refresh\+\_\+time = 0}
+

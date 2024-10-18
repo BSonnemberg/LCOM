@@ -1,0 +1,30 @@
+\doxysection{keyboard.\+h}
+\hypertarget{keyboard_8h_source}{}\label{keyboard_8h_source}\index{io/keyboard/keyboard.h@{io/keyboard/keyboard.h}}
+\mbox{\hyperlink{keyboard_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{kbc_8h}{../kbc.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ KBD\_IRQ\ 1}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ ESC\_BREAK\ 0x81}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ ARROW\_UP\ 0x48}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ ARROW\_DOWN\ 0x50}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ ENTER\_MAKE\ 0X1C}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ B\_LETTER\ 48}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00015\ \ \ uint8\_t\ buf[2];}
+\DoxyCodeLine{00016\ \ \ uint8\_t\ \mbox{\hyperlink{structscancode_aa118e617ba1540afe64cadab19d76196}{size}};}
+\DoxyCodeLine{00017\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{structscancode_a994123de8fd98d03c8aff2b232327743}{make}};}
+\DoxyCodeLine{00018\ \}\ \mbox{\hyperlink{structscancode}{scancode}};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00025\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{keyboard_8h_aa7a491d4d95eab5ca5326c4000ad67f8}{kbd\_subscribe\_int}}(uint8\_t\ *bit\_no);}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{keyboard_8h_a5bdf6cfb570c375192b0d87913b65c57}{kbd\_unsubscribe\_int}}();}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{keyboard_8h_a450185b33ff46ab8750355e0bc37c49f}{kbd\_parse\_scancode}}(\mbox{\hyperlink{structscancode}{scancode}}\ *sc);}
+
+\end{DoxyCode}

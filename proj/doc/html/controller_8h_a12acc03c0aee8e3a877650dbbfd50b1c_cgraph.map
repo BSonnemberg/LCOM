@@ -1,0 +1,9 @@
+<map id="unsubscribe_all_int" name="unsubscribe_all_int">
+<area shape="rect" id="Node000001" title="Unsubscribe to all I/O interrupts." alt="" coords="5,55,138,80"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#a5bdf6cfb570c375192b0d87913b65c57" title="Unsubscribe to keyboard interrupts." alt="" coords="195,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,51,196,33,197,38,126,57"/>
+<area shape="rect" id="Node000003" href="$mouse_8c.html#a685ad2706aca36d9869a30a19b9f446a" title="Unsubscribe to mouse interrupts." alt="" coords="186,55,344,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,65,170,65,170,70,138,70"/>
+<area shape="rect" id="Node000004" href="$timer_8c.html#ab9eea51549744bca5c5c923b388bb4ee" title=" " alt="" coords="191,104,339,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="126,78,197,97,196,102,124,84"/>
+</map>

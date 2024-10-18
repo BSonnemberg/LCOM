@@ -1,0 +1,305 @@
+\doxysection{physics.\+h File Reference}
+\hypertarget{physics_8h}{}\label{physics_8h}\index{physics.h@{physics.h}}
+{\ttfamily \#include "{}vector2.\+h"{}}\newline
+Include dependency graph for physics.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=138pt]{physics_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{physics_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structball}{ball}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{physics_8h_a250f3836709709d3d62aa23aa1c2cd12}{EARTH\+\_\+\+ACC}}~9.\+81
+\item 
+\#define \mbox{\hyperlink{physics_8h_a65fd90f232757535f02c46a885e49012}{TIME\+\_\+\+STEP}}~0.\+01667f
+\item 
+\#define \mbox{\hyperlink{physics_8h_aecb4dd17977d6a5bd0b4f9c4ce9e8fb0}{X\+\_\+\+MIN}}~62
+\item 
+\#define \mbox{\hyperlink{physics_8h_a4fcc42e3f93581eb0459cb359adebc54}{X\+\_\+\+MAX}}~755
+\item 
+\#define \mbox{\hyperlink{physics_8h_a68db164f44a0f1a010fefb729e6f95da}{Y\+\_\+\+MIN}}~170
+\item 
+\#define \mbox{\hyperlink{physics_8h_a7296ba9091427ae54bab4bcbb1dc87e1}{Y\+\_\+\+MAX}}~549
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{physics_8h_a00a35c3241194cf935caa1048c81c871}{update}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}body)
+\begin{DoxyCompactList}\small\item\em Update the state of a body over a time interval. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{physics_8h_a4a137f49b98088a0dfa39e175f21edcc}{are\+\_\+colliding}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c1, \mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c2)
+\begin{DoxyCompactList}\small\item\em Check if two circles are colliding. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437}{handle\+\_\+collision}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c1, \mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c2)
+\begin{DoxyCompactList}\small\item\em Handle a collision between two circles. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072}{get\+\_\+timeof\+\_\+collision}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c1, \mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c2, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} r, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} v)
+\item 
+void \mbox{\hyperlink{physics_8h_a09aa06345bb249d252e54348fb04eb50}{handle\+\_\+wallcollision}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}b, bool \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{pool_8c_a561890a48eec952484f0d90cbcc8fba3}{hit\+\_\+wall}})
+\begin{DoxyCompactList}\small\item\em Handle a wall collision. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{physics_8h_a068db7d6d107017e7eabff6411ee0080}{get\+\_\+cue\+\_\+angle}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\+\_\+pos}})
+\begin{DoxyCompactList}\small\item\em Get the angle of the cue stick. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{physics_8h_aa168ff285a6e3c2794605fc098e72335}{get\+\_\+shot\+\_\+force\+\_\+dir}} (\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}c1, \mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} \mbox{\hyperlink{controller_8c_a856104bd877eda3d567a3d37a7d8b957}{mouse\+\_\+pos}})
+\begin{DoxyCompactList}\small\item\em Get the force of the shot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{physics_8h_a250f3836709709d3d62aa23aa1c2cd12}\index{physics.h@{physics.h}!EARTH\_ACC@{EARTH\_ACC}}
+\index{EARTH\_ACC@{EARTH\_ACC}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{EARTH\_ACC}{EARTH\_ACC}}
+{\footnotesize\ttfamily \label{physics_8h_a250f3836709709d3d62aa23aa1c2cd12} 
+\#define EARTH\+\_\+\+ACC~9.\+81}
+
+\Hypertarget{physics_8h_a65fd90f232757535f02c46a885e49012}\index{physics.h@{physics.h}!TIME\_STEP@{TIME\_STEP}}
+\index{TIME\_STEP@{TIME\_STEP}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{TIME\_STEP}{TIME\_STEP}}
+{\footnotesize\ttfamily \label{physics_8h_a65fd90f232757535f02c46a885e49012} 
+\#define TIME\+\_\+\+STEP~0.\+01667f}
+
+\Hypertarget{physics_8h_a4fcc42e3f93581eb0459cb359adebc54}\index{physics.h@{physics.h}!X\_MAX@{X\_MAX}}
+\index{X\_MAX@{X\_MAX}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{X\_MAX}{X\_MAX}}
+{\footnotesize\ttfamily \label{physics_8h_a4fcc42e3f93581eb0459cb359adebc54} 
+\#define X\+\_\+\+MAX~755}
+
+\Hypertarget{physics_8h_aecb4dd17977d6a5bd0b4f9c4ce9e8fb0}\index{physics.h@{physics.h}!X\_MIN@{X\_MIN}}
+\index{X\_MIN@{X\_MIN}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{X\_MIN}{X\_MIN}}
+{\footnotesize\ttfamily \label{physics_8h_aecb4dd17977d6a5bd0b4f9c4ce9e8fb0} 
+\#define X\+\_\+\+MIN~62}
+
+\Hypertarget{physics_8h_a7296ba9091427ae54bab4bcbb1dc87e1}\index{physics.h@{physics.h}!Y\_MAX@{Y\_MAX}}
+\index{Y\_MAX@{Y\_MAX}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{Y\_MAX}{Y\_MAX}}
+{\footnotesize\ttfamily \label{physics_8h_a7296ba9091427ae54bab4bcbb1dc87e1} 
+\#define Y\+\_\+\+MAX~549}
+
+\Hypertarget{physics_8h_a68db164f44a0f1a010fefb729e6f95da}\index{physics.h@{physics.h}!Y\_MIN@{Y\_MIN}}
+\index{Y\_MIN@{Y\_MIN}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{Y\_MIN}{Y\_MIN}}
+{\footnotesize\ttfamily \label{physics_8h_a68db164f44a0f1a010fefb729e6f95da} 
+\#define Y\+\_\+\+MIN~170}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{physics_8h_a4a137f49b98088a0dfa39e175f21edcc}\index{physics.h@{physics.h}!are\_colliding@{are\_colliding}}
+\index{are\_colliding@{are\_colliding}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{are\_colliding()}{are\_colliding()}}
+{\footnotesize\ttfamily \label{physics_8h_a4a137f49b98088a0dfa39e175f21edcc} 
+bool are\+\_\+colliding (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c1}{, }\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c2}{}\end{DoxyParamCaption})}
+
+
+
+Check if two circles are colliding. 
+
+\begin{DoxyReturn}{Returns}
+true if they are colliding 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{physics_8h_a4a137f49b98088a0dfa39e175f21edcc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_a4a137f49b98088a0dfa39e175f21edcc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_a068db7d6d107017e7eabff6411ee0080}\index{physics.h@{physics.h}!get\_cue\_angle@{get\_cue\_angle}}
+\index{get\_cue\_angle@{get\_cue\_angle}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{get\_cue\_angle()}{get\_cue\_angle()}}
+{\footnotesize\ttfamily \label{physics_8h_a068db7d6d107017e7eabff6411ee0080} 
+double get\+\_\+cue\+\_\+angle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{mouse\+\_\+pos}{}\end{DoxyParamCaption})}
+
+
+
+Get the angle of the cue stick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & the cue ball \\
+\hline
+{\em mouse\+\_\+pos} & the position of the mouse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the angle of the cue stick 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{physics_8h_a068db7d6d107017e7eabff6411ee0080_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_a068db7d6d107017e7eabff6411ee0080_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_aa168ff285a6e3c2794605fc098e72335}\index{physics.h@{physics.h}!get\_shot\_force\_dir@{get\_shot\_force\_dir}}
+\index{get\_shot\_force\_dir@{get\_shot\_force\_dir}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{get\_shot\_force\_dir()}{get\_shot\_force\_dir()}}
+{\footnotesize\ttfamily \label{physics_8h_aa168ff285a6e3c2794605fc098e72335} 
+\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}} get\+\_\+shot\+\_\+force\+\_\+dir (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c1}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{mouse\+\_\+pos}{}\end{DoxyParamCaption})}
+
+
+
+Get the force of the shot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & the cue ball \\
+\hline
+{\em mouse\+\_\+pos} & the position of the mouse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the force of the shot 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_aa168ff285a6e3c2794605fc098e72335_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_aa168ff285a6e3c2794605fc098e72335_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072}\index{physics.h@{physics.h}!get\_timeof\_collision@{get\_timeof\_collision}}
+\index{get\_timeof\_collision@{get\_timeof\_collision}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{get\_timeof\_collision()}{get\_timeof\_collision()}}
+{\footnotesize\ttfamily \label{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072} 
+float get\+\_\+timeof\+\_\+collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c1}{, }\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c2}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{r}{, }\item[{\mbox{\hyperlink{vector2_8h_aa63d87d4e88ff9dfed3d967f3708facf}{vec\+\_\+2d}}}]{v}{}\end{DoxyParamCaption})}
+
+Get time until the two circles collide 
+\begin{DoxyParams}{Parameters}
+{\em r} & displacement vector (r2 -\/ r1) \\
+\hline
+{\em v} & difference in velocity of the 2 circles (v2 -\/ v1) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_a5f86bdb2796ca99e45adb71dd55ad072_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437}\index{physics.h@{physics.h}!handle\_collision@{handle\_collision}}
+\index{handle\_collision@{handle\_collision}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{handle\_collision()}{handle\_collision()}}
+{\footnotesize\ttfamily \label{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437} 
+void handle\+\_\+collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c1}{, }\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{c2}{}\end{DoxyParamCaption})}
+
+
+
+Handle a collision between two circles. 
+
+\begin{DoxyRemark}{Remarks}
+Provide pointers to circles in their previous state, i.\+e. during frame right before the collision 
+\end{DoxyRemark}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_ad69ab1b3b4b45e326bba433a2ecfc437_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_a09aa06345bb249d252e54348fb04eb50}\index{physics.h@{physics.h}!handle\_wallcollision@{handle\_wallcollision}}
+\index{handle\_wallcollision@{handle\_wallcollision}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{handle\_wallcollision()}{handle\_wallcollision()}}
+{\footnotesize\ttfamily \label{physics_8h_a09aa06345bb249d252e54348fb04eb50} 
+void handle\+\_\+wallcollision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{b}{, }\item[{bool \texorpdfstring{$\ast$}{*}}]{hit\+\_\+wall}{}\end{DoxyParamCaption})}
+
+
+
+Handle a wall collision. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & ball to be collided \\
+\hline
+{\em hit\+\_\+wall} & indicates whether there is a wall collision \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{physics_8h_a09aa06345bb249d252e54348fb04eb50_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_a09aa06345bb249d252e54348fb04eb50_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{physics_8h_a00a35c3241194cf935caa1048c81c871}\index{physics.h@{physics.h}!update@{update}}
+\index{update@{update}!physics.h@{physics.h}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{physics_8h_a00a35c3241194cf935caa1048c81c871} 
+void update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structball}{ball}} \texorpdfstring{$\ast$}{*}}]{body}{}\end{DoxyParamCaption})}
+
+
+
+Update the state of a body over a time interval. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em body} & physics body to be updated \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{physics_8h_a00a35c3241194cf935caa1048c81c871_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{physics_8h_a00a35c3241194cf935caa1048c81c871_icgraph}
+\end{center}
+\end{figure}

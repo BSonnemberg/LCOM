@@ -1,0 +1,14 @@
+<map id="get_shot_force_dir" name="get_shot_force_dir">
+<area shape="rect" id="Node000001" title="Get the force of the shot." alt="" coords="5,107,134,132"/>
+<area shape="rect" id="Node000002" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="205,5,275,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,104,180,48,200,37,202,41,183,52,93,108"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="346,131,412,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,104,149,93,197,86,248,84,299,92,327,103,352,119,349,124,325,108,297,97,248,89,198,91,150,99,111,109"/>
+<area shape="rect" id="Node000004" href="$vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355" title="Multiply a vector by a scalar." alt="" coords="182,107,298,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,117,166,117,166,122,134,122"/>
+<area shape="rect" id="Node000005" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="205,156,275,182"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="117,130,191,152,189,157,116,136"/>
+<area shape="rect" id="Node000006" href="$vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78" title="Get unit vector of a vector." alt="" coords="205,205,275,231"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="90,131,131,160,183,192,192,196,189,201,180,196,128,165,87,135"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="274,202,297,192,345,163,347,168,299,197,276,207"/>
+</map>

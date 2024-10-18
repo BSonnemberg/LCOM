@@ -1,0 +1,16 @@
+<map id="on_mouse_event" name="on_mouse_event">
+<area shape="rect" id="Node000001" title="Handle a mouse event." alt="" coords="5,107,126,132"/>
+<area shape="rect" id="Node000002" href="$physics_8c.html#aa168ff285a6e3c2794605fc098e72335" title="Get the force of the shot." alt="" coords="174,107,302,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,117,158,117,158,122,126,122"/>
+<area shape="rect" id="Node000003" href="$vector2_8c.html#ad2a596b81b174f603d371e6650c2b593" title="Add two vectors." alt="" coords="373,5,443,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,104,349,48,368,37,371,41,351,52,261,108"/>
+<area shape="rect" id="Node000004" href="$vector2_8c.html#a63cd4be62382844c7c506ca159e416ae" title="Get length of a vector." alt="" coords="514,131,581,156"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="278,104,318,93,365,86,417,84,467,92,495,103,520,119,517,124,493,108,466,97,416,89,366,91,319,99,279,109"/>
+<area shape="rect" id="Node000005" href="$vector2_8c.html#a4e08f16d1d17d1053d321c3fe0a2b355" title="Multiply a vector by a scalar." alt="" coords="350,107,466,132"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="303,117,334,117,334,122,303,122"/>
+<area shape="rect" id="Node000006" href="$vector2_8c.html#aa7a39492994c0ff3693cc65bc4b1b359" title="Negate a 2d vector." alt="" coords="373,156,443,182"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="286,130,359,152,358,157,284,136"/>
+<area shape="rect" id="Node000007" href="$vector2_8c.html#a3d3b3444a5bb3111ca6963a9be4e1e78" title="Get unit vector of a vector." alt="" coords="373,205,443,231"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="258,131,300,160,351,192,360,196,358,201,349,196,297,165,255,135"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="442,202,465,192,513,163,516,168,468,197,445,207"/>
+</map>

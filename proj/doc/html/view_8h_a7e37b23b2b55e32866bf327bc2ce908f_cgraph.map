@@ -1,0 +1,7 @@
+<map id="stop_view" name="stop_view">
+<area shape="rect" id="Node000001" title="Stop (unload) the view." alt="" coords="5,5,86,31"/>
+<area shape="rect" id="Node000002" href="$sprite__manager_8c.html#a22a2a97f739f62a0149efe87d2eb8f4c" title="Unload all game sprites." alt="" coords="134,5,239,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,16,118,16,118,21,86,21"/>
+<area shape="rect" id="Node000003" href="$sprite_8c.html#a1758ccffd8e45ee364a67950be1cdfbf" title="Destroy a sprite." alt="" coords="287,5,390,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,16,271,16,271,21,240,21"/>
+</map>
